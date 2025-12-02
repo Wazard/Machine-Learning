@@ -59,19 +59,19 @@ class BaseDataHandler():
         return self.df.head(row)
     
     @staticmethod
-    def static_get_pivot(self, values=None, index=None, columns=None, aggfunc:str="mean") -> pd.DataFrame:
+    def _get_pivot(df:pd.DataFrame, values=None, index=None, columns=None, aggfunc:str="mean") -> pd.DataFrame:
         '''
         Create a pivot table from the original DataFrame.
         '''
-        return pd.pivot_table(self.og_df, values=values, index=index, columns=columns, aggfunc=aggfunc)
+        return pd.pivot_table(df, values=values, index=index, columns=columns, aggfunc=aggfunc)
     
     def get_pivot(self, values=None, index=None, columns=None, aggfunc:str="mean") -> pd.DataFrame:
         '''
         Create a pivot table from the original DataFrame.
         '''
-        return pd.pivot_table(self.og_df, values=values, index=index, columns=columns, aggfunc=aggfunc)
+        return BaseDataHandler._get_pivot(self.df, values=values, index=index, columns=columns, aggfunc=aggfunc)
     
-    def try_get_groupby(self, target_col: str | list[str], col:str) -> tuple[bool, any]:
+    def try_get_groupby(self, target_col: str | list[str], col:str) -> tuple[bool, Exception | pd.DataFrame]:
         '''
         Group the original DataFrame by 'target_col' and select 'col'.
         '''
@@ -81,7 +81,7 @@ class BaseDataHandler():
             return False, e
         return True, tmp_df
 
-    def try_init_df(self, df) -> tuple[bool, any]:
+    def try_init_df(self, df) -> tuple[bool, Exception | None]:
         '''
         Initialize the DataFrame and working DataFrame from a given DataFrame or by reading from a CSV file.
         '''
@@ -96,7 +96,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_reset_df(self) -> tuple[bool, any]:
+    def try_reset_df(self) -> tuple[bool, Exception | None]:
         '''
         Reset the working DataFrame to the original DataFrame.
         '''
@@ -106,7 +106,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_update_og_df(self) -> tuple[bool, any]:
+    def try_update_og_df(self) -> tuple[bool, Exception | None]:
         '''
         Update the original DataFrame to match the current working DataFrame.
         '''
@@ -116,7 +116,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_order_by(self, cols:str | list[str], ascending:bool | list[bool]=True) -> tuple[bool, any]:
+    def try_order_by(self, cols:str | list[str], ascending:bool | list[bool]=True) -> tuple[bool, Exception | None]:
         '''
         Order the original DataFrame by specified columns.
         '''
@@ -126,7 +126,7 @@ class BaseDataHandler():
             return False, e
         return True, None
 
-    def try_fill_nan(self, use_mean:bool = True) -> tuple[bool, any]:
+    def try_fill_nan(self, use_mean:bool = True) -> tuple[bool, Exception | None]:
         '''
         Fill NaN values in the original DataFrame with either 0 or the mean of each column.
         '''
@@ -137,7 +137,7 @@ class BaseDataHandler():
         return True, None
     
     @staticmethod
-    def _try_add_col(df:pd.DataFrame, target_col:str, func, axis:int=1) -> tuple[bool, any]:
+    def _try_add_col(df:pd.DataFrame, target_col:str, func, axis:int=1) -> tuple[bool, Exception | None]:
             '''
             Add a new column to the working DataFrame based on a func function applied to each row or column.
             '''
@@ -147,13 +147,13 @@ class BaseDataHandler():
                 return False, e
             return True, None
     
-    def try_add_col(self, target_col:str, func, axis:int=1) -> tuple[bool, any]:
+    def try_add_col(self, target_col:str, func, axis:int=1) -> tuple[bool, Exception | None]:
         '''
         Add a new column to the working DataFrame based on a func function applied to each row or column.
         '''
         return BaseDataHandler._try_add_col(self.df, target_col, func, axis)
     
-    def try_remove_duplicates(self) -> tuple[bool, any]:
+    def try_remove_duplicates(self) -> tuple[bool, Exception | None]:
         '''
         Remove duplicate rows from the original DataFrame.
         '''
@@ -163,7 +163,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_save_to_csv(self) -> tuple[bool, any]:
+    def try_save_to_csv(self) -> tuple[bool, Exception | None]:
         '''
         Save the original DataFrame to a new CSV file.
         '''
@@ -174,7 +174,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_drop_nan(self, cols:str|list[str]) -> tuple[bool, any]:
+    def try_drop_nan(self, cols:str|list[str]) -> tuple[bool, Exception | None]:
         '''
         Drop rows with NaN values in specified columns and drop columns that are entirely NaN.
         '''
@@ -185,7 +185,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_clamp_cols(self, cols:str|list[str], lower_bounds:float=0, upper_bounds:float=200, use_og:bool = False) -> tuple[bool, any]:
+    def try_clamp_cols(self, cols:str|list[str], lower_bounds:float=0, upper_bounds:float=200, use_og:bool = False) -> tuple[bool, Exception | None]:
         '''
         Clamp the values in specified columns to be within given lower and upper bounds.
         '''
@@ -211,7 +211,7 @@ class BaseDataHandler():
             )
         return df_norm
 
-    def try_clean_string_to_number_col(self, col: str | list[str]) -> tuple[bool, any]:
+    def try_clean_string_to_number_col(self, col: str | list[str]) -> tuple[bool, Exception | None]:
         '''
         Clean a column containing string representations of numbers by extracting numeric values
         and converting them to floats. Handles ranges, plus signs, decimals.
@@ -235,8 +235,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-
-    def try_clean_column_names(self, inplace = True) -> tuple[bool, any]:
+    def try_clean_column_names(self, inplace = True) -> tuple[bool, Exception | pd.DataFrame]:
         '''
         Local version: cleans column names on self.df.
         '''
@@ -247,7 +246,7 @@ class BaseDataHandler():
         return state, clean_df
 
     @staticmethod
-    def _try_clean_column_names(df) -> tuple[bool, any]:
+    def _try_clean_column_names(df) -> tuple[bool, Exception | pd.DataFrame]:
         '''
         Static version: cleans column names on any DataFrame.
         '''
@@ -262,14 +261,18 @@ class BaseDataHandler():
             return False, e
         return True, cleaned_df
 
-    def try_rename_col(self, col: str | list[str], name: str | list[str]) -> tuple[bool, any]:
+    def try_rename_col(self, col: str | list[str], name: str | list[str], inplace=True) -> tuple[bool, Exception | pd.DataFrame | None]:
         '''
         Local version: renames columns on self.df.
         '''
-        return BaseDataHandler._try_rename_col(self.df, col, name)
+        s, res = BaseDataHandler._try_rename_col(self.df, col, name)
+        if inplace:
+            self.df = res.copy()
+            return s, None
+        return s, res
 
     @staticmethod
-    def _try_rename_col(df, col: str | list[str], name: str | list[str]) -> tuple[bool, any]:
+    def _try_rename_col(df, col: str | list[str], name: str | list[str]) -> tuple[bool, Exception | pd.DataFrame]:
         '''
         Static version: renames columns on any DataFrame.
         '''
@@ -362,3 +365,20 @@ class BaseDataHandler():
             fig.delaxes(axes[j])
 
         return fig, axes
+    
+    def try_clean_string_per_cols(self, cols:str|list[str], inplace:bool=True) -> tuple[bool, Exception | pd.DataFrame]:
+        try:
+            tmp_df = self.df.copy()
+            tmp_df[cols] = (
+            self.df[cols]
+                .astype(str)              # ensure strings
+                .str.strip()              # remove leading/trailing whitespace
+                .str.replace(r"\s+", " ", regex=True)  # normalize multiple spaces
+                .str.title()              # consistent capitalization
+            )
+        except Exception as e:
+            return False, e
+        if inplace :
+            self.df[cols] = tmp_df[cols]
+            return True, None
+        return True, tmp_df
