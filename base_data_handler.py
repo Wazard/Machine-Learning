@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import re
 import warnings
+import matplotlib.pyplot as plt
+import matplotlib.figure as figure
+import seaborn as sns
 
 class BaseDataHandler():
     '''
@@ -134,26 +137,21 @@ class BaseDataHandler():
         return True, None
     
     @staticmethod
-    def static_try_add_col(df:pd.DataFrame, target_col:str, criteria, axis:int=1) -> tuple[bool, any]:
+    def _try_add_col(df:pd.DataFrame, target_col:str, func, axis:int=1) -> tuple[bool, any]:
             '''
-            Add a new column to the working DataFrame based on a criteria function applied to each row or column.
+            Add a new column to the working DataFrame based on a func function applied to each row or column.
             '''
             try:
-                df[target_col] = df.apply(criteria, axis=axis)
+                df[target_col] = df.apply(func, axis=axis)
             except Exception as e:
                 return False, e
             return True, None
     
-
-    def try_add_col(self, target_col:str, criteria, axis:int=1) -> tuple[bool, any]:
+    def try_add_col(self, target_col:str, func, axis:int=1) -> tuple[bool, any]:
         '''
-        Add a new column to the working DataFrame based on a criteria function applied to each row or column.
+        Add a new column to the working DataFrame based on a func function applied to each row or column.
         '''
-        try:
-            self.__curr_df[target_col] = self.og_df.apply(criteria, axis=axis)
-        except Exception as e:
-            return False, e
-        return True, None
+        return BaseDataHandler._try_add_col(self.df, target_col, func, axis)
     
     def try_remove_duplicates(self) -> tuple[bool, any]:
         '''
@@ -165,7 +163,7 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_save(self) -> tuple[bool, any]:
+    def try_save_to_csv(self) -> tuple[bool, any]:
         '''
         Save the original DataFrame to a new CSV file.
         '''
@@ -227,8 +225,6 @@ class BaseDataHandler():
                 # If multiple numbers (range), take the mean
                 return float(np.mean(nums))
             return None
-
-
         try:
             if isinstance(col, str):
                 self.__curr_df[col] = self.df[col].apply(helper)
@@ -239,73 +235,60 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_clean_column_names(self) -> tuple[bool, any]:
+
+    def try_clean_column_names(self, inplace = True) -> tuple[bool, any]:
         '''
-        Clean column names by converting them to snake_case.
+        Local version: cleans column names on self.df.
+        '''
+        state, clean_df = BaseDataHandler._try_clean_column_names(self.df)
+        if inplace and state:
+            self.df = clean_df
+            return True, None
+        return state, clean_df
+
+    @staticmethod
+    def _try_clean_column_names(df) -> tuple[bool, any]:
+        '''
+        Static version: cleans column names on any DataFrame.
         '''
         def to_snake(name: str) -> str:
-            # Lowercase
             name = name.lower()
-            # Replace non-alphanumeric with underscore
             name = re.sub(r'[^a-z0-9]+', '_', name)
-            # Remove leading/trailing underscores
             name = name.strip('_')
             return name
         try:
-            self.__curr_df = self.df.rename(columns={col: to_snake(col) for col in self.df.columns})
+            cleaned_df = df.rename(columns={col: to_snake(col) for col in df.columns})
         except Exception as e:
             return False, e
-        return True, self.df
-    
+        return True, cleaned_df
+
     def try_rename_col(self, col: str | list[str], name: str | list[str]) -> tuple[bool, any]:
         '''
-        Rename specified columns in the DataFrame.
+        Local version: renames columns on self.df.
+        '''
+        return BaseDataHandler._try_rename_col(self.df, col, name)
+
+    @staticmethod
+    def _try_rename_col(df, col: str | list[str], name: str | list[str]) -> tuple[bool, any]:
+        '''
+        Static version: renames columns on any DataFrame.
         '''
         try:
-            # Ensure both are lists for mapping
             if isinstance(col, str) and isinstance(name, str):
                 mapping = {col: name}
             elif isinstance(col, list) and isinstance(name, list):
                 mapping = dict(zip(col, name))
-            self.__curr_df = self.df.rename(columns=mapping)
-            return True, self.df
+            renamed_df = df.rename(columns=mapping)
+            return True, renamed_df
         except Exception as e:
             return False, e
 
-    def detect_outliers_all(self, method: str = "iqr",
-                            lower_percentile: float = 0.01,
-                            upper_percentile: float = 0.99) -> pd.DataFrame:
-        """
-        Detect outliers for every numeric column in the DataFrame.
-        Supports 'iqr', 'zscore', and 'percentile' methods.
-        Returns a DataFrame with boolean flags for each column.
-        """
-        outlier_flags = pd.DataFrame(index=self.df.index)
 
-        for col in self.df.select_dtypes(include="number").columns:
-            series = self.df[col]
-
-            if method == "zscore":
-                z_scores = (series - series.mean()) / series.std()
-                outlier_flags[col] = (z_scores.abs() > 3)
-
-            elif method == "percentile":
-                lower = series.quantile(lower_percentile)
-                upper = series.quantile(upper_percentile)
-                outlier_flags[col] = (series < lower) | (series > upper)
-
-            else:
-                if method != "iqr":
-                    warnings.warn("Unknown method. Defaulting to IQR.", UserWarning)
-                Q1, Q3 = series.quantile([0.25, 0.75])
-                IQR = Q3 - Q1
-                lower, upper = Q1 - 1.5 * IQR, Q3 + 1.5 * IQR
-                outlier_flags[col] = (series < lower) | (series > upper)
-
-        return outlier_flags
+    def get_outliers_df(self, method: str = "iqr", lower_percentile: float = 0.01, upper_percentile: float = 0.99) -> pd.DataFrame:
+        return BaseDataHandler._get_outliers_df(self.df, method, lower_percentile, upper_percentile)
     
     @staticmethod
-    def static_detect_outliers_all(df, method: str = "iqr", lower_percentile: float = 0.01, upper_percentile: float = 0.99) -> pd.DataFrame:
+    def _get_outliers_df(df, method: str = "iqr", lower_percentile: float = 0.01, upper_percentile: float = 0.99) -> pd.DataFrame:
         """
         Detect outliers for every numeric column in the DataFrame.
         Supports 'iqr', 'zscore', and 'percentile' methods.
@@ -335,3 +318,47 @@ class BaseDataHandler():
 
         return outlier_flags
     
+    def try_get_numeric_cols(self) -> pd.DataFrame | None:
+        try:
+            numeric_cols = self.df.select_dtypes(include="number").columns
+        except Exception as e:
+            print(e)
+            return None
+        return self.df[numeric_cols]
+    
+    def get_outlier_case_study(self, cols=3, width_mul=1,size_mul=1, method="percentile") -> tuple[figure.Figure, np.ndarray]:
+        outlier_flags = self.get_outliers_df(
+            method=method, lower_percentile=0.01, upper_percentile=0.99
+        )
+
+        numeric_cols = self.try_get_numeric_cols()
+
+        n_rows = (len(numeric_cols) + 2) // cols
+        fig, axes = plt.subplots(
+            n_rows, cols, figsize=(18*size_mul*width_mul, 5*n_rows*size_mul)
+        )
+        axes = axes.flatten()
+
+        for i, col in enumerate(numeric_cols):
+            sns.boxplot(data=self.df, x=col, color="steelblue", ax=axes[i])
+
+            # Overlay outliers in red (only if they exist)
+            new_mask = outlier_flags[col]
+            if new_mask.any():
+                sns.scatterplot(
+                    x=self.df[col][new_mask],
+                    y=[-0.05] * new_mask.sum(),   # jitter so they appear just above the box
+                    color="red",
+                    marker="o",
+                    ax=axes[i],
+                    label="outliers"
+                )
+                axes[i].legend()
+
+            axes[i].set_title(f"Outliers in {col} ({method})", fontsize=12)
+
+        # Remove unused subplots
+        for j in range(i+1, len(axes)):
+            fig.delaxes(axes[j])
+
+        return fig, axes
