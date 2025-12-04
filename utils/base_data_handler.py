@@ -4,6 +4,7 @@ import re
 import warnings
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 class BaseDataHandler():
     '''
@@ -35,17 +36,14 @@ class BaseDataHandler():
         return self.df.sample(amount, random_state=42)
     
     @property
-    def df_log(self, base:float='e') -> pd.DataFrame:
+    def df_log(self) -> pd.DataFrame:
         '''
         Apply logarithmic transformation to numeric columns of the DataFrame.
         '''
         numeric_cols = self.df.select_dtypes(include='number').columns
         df_log = self.df.copy()
 
-        if base == 'e':
-            df_log[numeric_cols] = df_log[numeric_cols].apply(lambda x: np.log(x.clip(lower=1e-9)))
-        else:
-            df_log[numeric_cols] = df_log[numeric_cols].apply(lambda x: np.log(x.clip(lower=1e-9)) / np.log(base))
+        df_log[numeric_cols] = df_log[numeric_cols].apply(lambda x: np.log1p(x.clip(lower=1e-9)))
 
         return df_log
     
@@ -179,13 +177,27 @@ class BaseDataHandler():
             return False, e
         return True, None
     
-    def try_save_to_csv(self) -> tuple[bool, Exception | None]:
-        '''
+    def try_save_to_csv(self, name=None) -> tuple[bool, Exception | None]:
+        """
         Save the original DataFrame to a new CSV file.
-        '''
+        - If self.file_path is None, use the current execution path.
+        - Ensure the output filename always ends with '.csv'.
+        """
         try:
-            new_file_path = self.file_path.replace('.csv', '_new.csv')
-            self.og_df.to_csv(new_file_path)
+            if self.file_path is not None:
+                # Ensure extension is .csv
+                base, ext = os.path.splitext(self.file_path)
+                if ext.lower() != ".csv":
+                    base = self.file_path  # treat as raw name if not ending in .csv
+                new_file_path = f"{base}_new.csv"
+            else:
+                # Use execution path with provided name or default
+                base_name = name if name else "data_new.csv"
+                if not base_name.lower().endswith(".csv"):
+                    base_name += ".csv"
+                new_file_path = os.path.join(os.getcwd(), base_name)
+
+            self.og_df.to_csv(new_file_path, index=False)
         except Exception as e:
             return False, e
         return True, None
@@ -407,3 +419,23 @@ class BaseDataHandler():
             self.df[cols] = tmp_df[cols]
             return True, None
         return True, tmp_df
+    
+    def get_training_data(self, target: str, features_to_drop: str | list[str]=None, log:bool=False) -> tuple[pd.DataFrame, pd.Series]:
+        """
+        returns X and y base on target and features to drop
+        """
+        dropped_features = [target]
+        if features_to_drop is not None:
+            if isinstance(features_to_drop, str):
+                features_to_drop = [features_to_drop]
+
+            dropped_features += features_to_drop
+
+        X = self.df.drop(dropped_features, axis=1)
+        if log:
+            y=self.df_log[target]
+        else:
+            y = self.df[target]
+
+        return X, y
+    

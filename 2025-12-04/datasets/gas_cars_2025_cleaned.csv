@@ -1,0 +1,781 @@
+company_names,cars_names,engines,horsepower,total_speed,performance,cars_prices,fuel_types,seats,torque,engine_cc
+Ford,KA+,1.2L Petrol,77.5,165.0,10.5,13500.0,Petrol,5.0,120.0,1200.0
+Toyota,GR SUPRA,I4,382.0,250.0,4.1,53900.0,Petrol,2.0,500.0,2998.0
+Toyota,TOYOTA 86,BOXER-4,205.0,226.0,6.4,27000.0,Petrol,2.0,205.0,1998.0
+Toyota,TOYOTA  GR86,BOXER-4,228.0,226.0,5.6,30000.0,Petrol,4.0,250.0,2387.0
+Toyota,TOYOTA LAND CRUISER,V8,381.0,220.0,6.7,85000.0,Diesel,7.0,500.0,5663.0
+Toyota,TOYOTA SEQUOIA,V8,381.0,200.0,6.9,50000.0,Petrol,7.0,651.0,5663.0
+Nissan,370Z,V6,332.0,250.0,4.7,30000.0,Petrol,2.0,366.0,3696.0
+Nissan,Z PROTO,V6,400.0,290.0,4.1,40000.0,Petrol,2.0,475.0,2998.0
+Nissan,ALTIMA,I4,188.0,225.0,7.3,25000.0,Petrol,5.0,380.0,2488.0
+Nissan,MAXIMA,V6,300.0,240.0,5.8,35000.0,Petrol,5.0,354.0,3498.0
+Nissan,SENTRA,I4,149.0,200.0,8.2,20000.0,Petrol,5.0,240.0,1998.0
+Nissan,ROGUE,I4,201.0,200.0,7.5,28000.0,Petrol,5.0,270.0,2488.0
+Nissan,PATHFINDER,V6,284.0,225.0,6.5,35000.0,Petrol,7.0,351.0,3498.0
+Nissan,FRONTIER,V6,310.0,180.0,6.8,30000.0,Petrol,5.0,381.0,3799.0
+Nissan,TITAN,V8,400.0,200.0,5.9,40000.0,Petrol,5.0,560.0,5598.0
+Aston Martin,DBX,V8,542.0,291.0,4.5,189000.0,Petrol,5.0,700.0,3996.0
+Mercedes,BENZ S-CLASS S 580,V8,496.0,250.0,4.4,116000.0,Petrol,5.0,700.0,3982.0
+Mercedes,BENZ CLA 45 AMG,I4,382.0,250.0,4.1,53000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ S-CLASS S 500,V6,429.0,250.0,4.9,109000.0,Petrol,5.0,700.0,2996.0
+Mercedes,BENZ E-CLASS E 450 ,V6,362.0,250.0,5.2,62000.0,Petrol,5.0,500.0,2996.0
+Mercedes,BENZ CLS 450,V6,362.0,250.0,5.2,70000.0,Petrol,5.0,500.0,2996.0
+Mercedes,BENZ GT 53,V6,429.0,250.0,4.5,99000.0,Petrol,5.0,700.0,2996.0
+Mercedes,BENZ GLE 450,V6,362.0,250.0,5.5,63000.0,Petrol,5.0,500.0,2996.0
+Mercedes,BENZ A-CLASS A 45 S,I4,416.0,250.0,3.9,53000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ C-CLASS C 43,V6,402.0,250.0,4.7,52000.0,Petrol,5.0,520.0,2996.0
+Mercedes,BENZ E-CLASS E 350,I4,255.0,250.0,5.7,49000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ GLE 350 ,I4,255.0,250.0,6.1,53000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ GLC 43,V6,402.0,250.0,4.7,54000.0,Petrol,5.0,520.0,2996.0
+Mercedes,BENZ GLA 45,I4,382.0,250.0,4.3,48000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ GLC 350 ,I4,255.0,250.0,6.1,46000.0,Petrol,5.0,500.0,1991.0
+Mercedes,BENZ GLE 53,V6,429.0,250.0,5.2,71000.0,Petrol,5.0,620.0,2996.0
+Mercedes,BENZ S-CLASS S 350,I4,255.0,250.0,6.5,90000.0,Petrol,5.0,500.0,1991.0
+Bmw,M3 COMPETITION,I6,503.0,285.0,3.5,76000.0,Petrol,5.0,650.0,2993.0
+Bmw,M2 CS,I6,444.0,280.0,4.0,83000.0,Petrol,4.0,550.0,2993.0
+Bmw,X3 M COMPETITION,I6,503.0,285.0,4.1,69000.0,Petrol,5.0,650.0,2993.0
+Audi,A8,V6,335.0,250.0,5.7,86000.0,Petrol,5.0,600.0,2995.0
+Audi,S5 COUPE,V6,349.0,250.0,4.8,64000.0,Petrol,4.0,500.0,2995.0
+Audi,SQ5,V6,349.0,250.0,5.4,62000.0,Petrol,5.0,500.0,2995.0
+Audi,S4 SEDAN,V6,349.0,250.0,4.7,59000.0,Petrol,5.0,500.0,2995.0
+Audi,S3 SEDAN,I4,306.0,250.0,4.8,52000.0,Petrol,5.0,400.0,1984.0
+Audi,Q7,V6,335.0,250.0,6.3,60000.0,Petrol,7.0,600.0,2995.0
+Audi,Q5,I4,248.0,240.0,6.3,43000.0,Petrol,5.0,500.0,1984.0
+Audi,A7,V6,335.0,250.0,5.7,68000.0,Petrol,5.0,600.0,2995.0
+Audi,A6,V6,335.0,250.0,5.7,58000.0,Petrol,5.0,600.0,2995.0
+Audi,A5 COUPE,I4,248.0,240.0,6.3,45000.0,Petrol,4.0,500.0,1984.0
+Audi,A4,I4,248.0,240.0,6.5,39000.0,Petrol,5.0,400.0,1984.0
+Audi,Q3,I4,248.0,230.0,7.3,35000.0,Petrol,5.0,400.0,1984.0
+Audi,TT COUPE,I4,248.0,250.0,5.3,49000.0,Petrol,2.0,400.0,1984.0
+Bmw,330i,I4,255.0,250.0,5.6,45000.0,Petrol,5.0,400.0,1998.0
+Bmw,M340i XDRIVE,I6,382.0,250.0,4.1,57000.0,Petrol,5.0,500.0,2998.0
+Bmw,430i COUPE,I4,255.0,250.0,5.8,48000.0,Petrol,4.0,400.0,1998.0
+Bmw,M4 COMPETITION,I6,503.0,290.0,3.8,81000.0,Petrol,4.0,650.0,2993.0
+Bmw,530i,I4,248.0,250.0,5.9,57000.0,Petrol,5.0,400.0,1998.0
+Bmw,M550i XDRIVE,V8,523.0,250.0,3.6,78000.0,Petrol,5.0,650.0,4395.0
+Bmw,118i,I3,136.0,213.0,8.5,32000.0,Petrol,5.0,220.0,1499.0
+Bmw,128ti,I4,261.0,250.0,6.1,42000.0,Petrol,5.0,400.0,1998.0
+Bmw,M135i XDRIVE,I4,302.0,250.0,4.8,30000.0,Petrol,5.0,450.0,1998.0
+Bmw,116D,I3,116.0,200.0,10.3,30000.0,Diesel,5.0,280.0,1496.0
+Bmw,120D XDRIVE,I4,190.0,230.0,6.9,38000.0,Diesel,5.0,400.0,1995.0
+Bmw,116i,I3,109.0,200.0,10.9,28000.0,Petrol,5.0,200.0,1499.0
+Bmw,118D,I4,150.0,216.0,8.4,34000.0,Diesel,5.0,380.0,1995.0
+Bmw,120i,I4,178.0,230.0,7.1,37000.0,Petrol,5.0,300.0,1998.0
+Bmw,125i,I4,224.0,240.0,6.1,42000.0,Petrol,5.0,400.0,1998.0
+Bmw,114i,I4,102.0,195.0,11.2,26000.0,Petrol,5.0,200.0,1598.0
+Bmw,125D,I4,224.0,240.0,6.3,44000.0,Diesel,5.0,400.0,1995.0
+Bmw,118i XDRIVE,I3,136.0,211.0,8.9,34000.0,Petrol,5.0,250.0,1499.0
+Bmw,116D EFFICIENTDYNAMICS,I3,116.0,200.0,10.9,30000.0,Diesel,5.0,270.0,1496.0
+Bmw,118i SPORTLINE,I3,136.0,213.0,8.5,35000.0,Petrol,5.0,250.0,1499.0
+Bmw,118i M SPORT,I3,136.0,213.0,8.5,37000.0,Petrol,5.0,250.0,1499.0
+Bmw,120i M SPORT,I4,178.0,230.0,7.1,39000.0,Petrol,5.0,300.0,1998.0
+Bmw,116i EFFICIENTDYNAMICS,I4,109.0,195.0,10.9,29000.0,Petrol,5.0,200.0,1598.0
+Bmw,116D ADVANTAGE,I3,116.0,200.0,10.5,31000.0,Diesel,5.0,270.0,1496.0
+Bmw,120D EFFICIENTDYNAMICS,I4,163.0,225.0,7.7,39000.0,Diesel,5.0,400.0,1995.0
+Bmw,118i SHADOW LINE,I3,136.0,213.0,8.5,36000.0,Petrol,5.0,250.0,1499.0
+Bmw,118D SPORT LINE,I4,150.0,216.0,8.4,36000.0,Diesel,5.0,380.0,1995.0
+Bmw,120i XDRIVE,I4,178.0,230.0,7.2,40000.0,Petrol,5.0,300.0,1998.0
+Bmw,118i URBAN LINE,I3,136.0,213.0,8.5,35000.0,Petrol,5.0,250.0,1499.0
+Volvo,XC90,I6,247.0,200.0,6.5,60000.0,"Diesel, Petrol",7.0,400.0,1969.0
+Volvo,XC60,I6,247.0,220.0,6.4,55000.0,"Diesel, Petrol",5.0,400.0,1969.0
+Volvo,S90,I6,295.0,250.0,5.9,60000.0,"Diesel, Petrol",5.0,400.0,1969.0
+Kia,SPORTAGE LX,I4,187.0,200.0,8.0,27000.0,Petrol,5.0,250.0,2480.0
+Kia,SPORTAGE EX,I4,187.0,200.0,8.0,30000.0,Petrol,5.0,250.0,2480.0
+Kia,SPORTAGE GT-LINE,I4,187.0,200.0,8.0,32000.0,Petrol,5.0,350.0,2480.0
+Kia,SPORTAGE SX TURBO,I4,240.0,210.0,6.7,36000.0,Petrol,5.0,400.0,1998.0
+Kia,SPORTAGE NIGHTFALL EDITION,I4,187.0,200.0,8.0,33000.0,Petrol,5.0,350.0,2480.0
+Honda,CIVIC TYPE R,I4,315.0,272.0,5.7,44000.0,Petrol,5.0,400.0,1996.0
+Kia,SPORTAGE PHEV,I4 + ELECTRIC,261.0,180.0,8.0,41000.0,Hybrid,5.0,350.0,1600.0
+Kia,SPORTAGE 2024(BASE MODEL),I4,187.0,200.0,8.0,26000.0,Petrol,5.0,250.0,2480.0
+Kia,SPORTAGE 2024(TOP TRIM),I4,240.0,210.0,6.7,38000.0,Petrol,5.0,400.0,1998.0
+Kia,SPORTAGE X-LINE,I4,187.0,200.0,8.0,32500.0,Petrol,5.0,350.0,2480.0
+Kia,SPORTAGE 2024(S TRIM),I4,187.0,200.0,8.2,28000.0,Petrol,5.0,250.0,2480.0
+Honda,ACCORD,I4,192.0,201.0,7.1,29400.0,Petrol,5.0,370.0,1498.0
+Kia,SPORTAGE 2024(HYBRID AWD),I4 + ELECTRIC,227.0,180.0,8.0,37000.0,Hybrid,5.0,350.0,1600.0
+Kia,SPORTAGE 2024(PLUG-IN HYBRID AWD),I4 + ELECTRIC,261.0,180.0,7.9,42000.0,Hybrid,5.0,350.0,1598.0
+Kia,SPORTAGE 2024(X-PRO),I4,187.0,200.0,8.1,36000.0,Petrol,5.0,400.0,2480.0
+Kia,SPORTAGE 2024(X-PRO PRESTIGE),I4,187.0,200.0,8.1,38000.0,Petrol,5.0,400.0,2480.0
+Kia,SPORTAGE 2024(BASE FWD),I4,187.0,200.0,8.5,26500.0,Petrol,5.0,250.0,2480.0
+Honda,CR-V,I4,190.0,186.0,8.2,30000.0,"Hybrid, Petrol",5.0,400.0,1498.0
+Honda,CIVIC HATCHBACK,I4,180.0,220.0,6.8,26350.0,Petrol,5.0,300.0,1498.0
+Toyota,CAMRY,V6,301.0,220.0,6.0,27000.0,"Hybrid, Petrol",5.0,250.0,3500.0
+Toyota,COROLLA,I4,139.0,180.0,9.4,22500.0,"Hybrid, Petrol",5.0,200.0,1798.0
+Toyota,PRIUS,I4,121.0,180.0,10.5,26700.0,Hybrid,5.0,142.0,1798.0
+Toyota,RAV4,I4,203.0,200.0,8.1,27100.0,"Hybrid, Petrol",5.0,400.0,2494.0
+Toyota,HIGHLANDER,V6,295.0,220.0,7.2,38400.0,"Hybrid, Petrol",7.0,370.0,3456.0
+Toyota,4RUNNER ,V6,270.0,200.0,7.5,37400.0,Petrol,5.0,400.0,3956.0
+Toyota,TACOMA,I4,159.0,180.0,9.5,26400.0,Petrol,5.0,400.0,2694.0
+Toyota,TUNDRA,V8,381.0,220.0,6.7,39900.0,Petrol,5.0,650.0,5663.0
+Toyota,AVALON,V6,301.0,220.0,6.9,41400.0,Petrol,5.0,400.0,3456.0
+Toyota,MIRAI,I4,151.0,180.0,9.2,52400.0,Hydrogen,5.0,335.0,1798.0
+Toyota,SIENNA,V6,245.0,190.0,8.0,44150.0,"Hybrid, Petrol",7.0,360.0,2494.0
+Toyota,VENZA,I4,219.0,200.0,7.5,33400.0,Hybrid,5.0,400.0,2494.0
+Toyota,HIGHLANDER HYBRID,V6,240.0,220.0,8.2,40400.0,Hybrid,7.0,350.0,3456.0
+Toyota,LAND CRUISER PRADO,V6,282.0,200.0,7.2,49400.0,"Diesel, Petrol",7.0,450.0,3956.0
+Toyota,TUNDRA HYBRID,V6,344.0,220.0,6.2,43400.0,Hybrid,5.0,650.0,3456.0
+Toyota,YARIS,I4,106.0,180.0,11.2,18400.0,Petrol,5.0,150.0,1496.0
+Toyota,C-HR,I4,144.0,200.0,10.2,24400.0,"Hybrid, Petrol",5.0,250.0,1986.0
+Toyota,CROWN,HYBRID,236.0,200.0,7.6,38400.0,Hybrid,5.0,400.0,2494.0
+Toyota,MR2,I4,168.0,200.0,6.9,29000.0,Petrol,2.0,400.0,1986.0
+Toyota,CELICA,I4,140.0,200.0,8.5,25000.0,Petrol,5.0,250.0,1986.0
+Honda,CITY,I4,119.0,180.0,10.2,15400.0,"Hybrid, Petrol",5.0,145.0,1497.0
+Honda,CIVIC,I4,158.0,200.0,8.5,20400.0,Petrol,5.0,400.0,1996.0
+Hyundai,I20,"1.4L,4-CYLINDER,INLINE-4(I4)",99.0,180.0,10.5,15400.0,"Hybrid, Petrol",5.0,250.0,1396.0
+Hyundai,ELANTRA,"2.0L,4-CYLINDER,INLINE-4(I4)",147.0,200.0,9.5,18400.0,"Hybrid, Petrol",5.0,250.0,1999.0
+Mahindra,XUV500,"2.2L,4-CYLINDER,INLINE-4(I4)",155.0,180.0,10.5,18400.0,Diesel,7.0,400.0,2179.0
+Mahindra,SCORPIO,"2.2L,4-CYLINDER,INLINE-4(I4)",140.0,160.0,11.2,16400.0,Diesel,7.0,280.0,2179.0
+Mahindra,THAR,"2.0L,4-CYLINDER,INLINE-4(I4)",150.0,180.0,10.5,20400.0,"Diesel, Petrol",4.0,320.0,1997.0
+Maruti Suzuki,BREZZA,"1.5L,4-CYLINDER,INLINE(I4)",103.0,180.0,11.5,14400.0,Petrol,5.0,200.0,1462.0
+Toyota,PRIUS PRIME,"2.0L,4-CYLINDER,WITH HYBRID SYSTEM",220.0,180.0,6.7,31100.0,Hybrid,5.0,220.0,1998.0
+Toyota,GR COROLLA,"1.6L,TURBOCHARGED INLINE-3",300.0,230.0,2.5,36995.0,Petrol,5.0,370.0,1618.0
+Toyota,LAND CRUISER 300,"3.3L,V6,TWIN TURBO DIESEL",305.0,210.0,6.8,58500.0,"Diesel, Petrol",7.0,650.0,3346.0
+Toyota,COROLLA HATCHBACK XSE,"2.0L,INLINE-4",169.0,190.0,8.2,25390.0,Petrol,5.0,250.0,1987.0
+Toyota,HILUX GR SPORT,"2.8L,TURBO,DIESEL",224.0,170.0,10.0,50000.0,"Diesel, Petrol",5.0,500.0,2755.0
+Toyota,ALPHARD EXECUTIVE LOUNGE,"2.5L,INLINE-4,HYBRID,OR 3.5L,V6",296.0,180.0,8.5,60000.0,Petrol,7.0,400.0,2975.0
+Toyota,FORTUNER GR SPORT,"2.8L,TURBO,DIESEL",204.0,175.0,10.5,55000.0,"Diesel, Petrol",7.0,500.0,2755.0
+Toyota,INNOVA HYCROSS,2.0L HYBRID,184.0,165.0,9.5,40000.0,Hybrid,7.0,250.0,1987.0
+Toyota,URBAN CRUISER TAISOR,"1.5L,HYBRID",114.0,170.0,11.0,25000.0,Petrol,5.0,130.0,1490.0
+Toyota,HILUX REVO ROCCO,"2.8L,TURBO,DIESEL",204.0,175.0,10.0,50000.0,Diesel,5.0,500.0,2755.0
+Toyota,CENTURY SUV,"3.5L,V6,PLUG IN HYBRID",406.0,200.0,6.0,170000.0,Petrol,5.0,500.0,3456.0
+Toyota,COROLLA SEDAN HYBRID,"1.8L,HYBRID",134.0,180.0,10.0,24000.0,Hybrid,5.0,300.0,1798.0
+Toyota,GR YARIS,"1.6L,TURBOCHARGED INLINE-3",268.0,230.0,5.5,45000.0,Petrol,4.0,390.0,1618.0
+Hyundai,SANTA FE,1.6L PETROL + PLUG IN HYBRID SYSTEM,253.0,180.0,9.3,50000.0,"Hybrid, Petrol",7.0,420.0,1600.0
+Hyundai,Santa Cruz,2.5L Turbocharged Inline-4,281.0,215.0,6.5,40799.0,Petrol,5.0,400.0,2500.0
+Hyundai,Kona,1.6L PETROL ,147.0,185.0,7.5,20500.0,"Ev, Petrol",5.0,400.0,1591.0
+Hyundai,Elantra,2.0L Inline-4,147.0,210.0,8.3,19950.0,"Hybrid, Petrol",5.0,250.0,2000.0
+Hyundai,Tucson,2.5L Inline-4,187.0,180.0,6.1,30500.0,"Hybrid, Petrol",5.0,400.0,2500.0
+Hyundai,Palisade,3.8L V6,291.0,240.0,6.3,52000.0,Petrol,7.0,355.0,3800.0
+Hyundai,Sonata,2.5L Inline-4,191.0,240.0,8.0,25000.0,"Hybrid, Petrol",5.0,250.0,2500.0
+Hyundai,Accent,1.6L Inline-4,120.0,180.0,9.8,15000.0,Petrol,5.0,151.0,1600.0
+Hyundai,Venue,1.6L Inline-4,121.0,180.0,9.5,18000.0,Petrol,5.0,240.0,1600.0
+Hyundai,Veloster,2.0L Inline-4,275.0,220.0,6.0,25000.0,Petrol,4.0,264.0,2000.0
+Hyundai,Genesis,3.8L V6,291.0,240.0,6.3,52000.0,Petrol,5.0,400.0,3800.0
+Hyundai,Azera,3.3L V6,278.0,240.0,6.5,55000.0,Petrol,5.0,250.0,3300.0
+Hyundai,Equus,3.3L V6,278.0,240.0,6.5,55000.0,Petrol,5.0,400.0,3300.0
+Hyundai,Tiburon,2.0L Inline-4,160.0,200.0,8.2,19000.0,Petrol,4.0,320.0,2000.0
+Hyundai,Elantra GT,1.6L Turbo GDI 4-cylinder,160.0,200.0,8.3,22000.0,Petrol,5.0,320.0,2000.0
+Volkswagen,Golf,1.5L Turbo I4 / Electric,215.0,210.0,8.5,23000.0,Petrol,5.0,250.0,1498.0
+Volkswagen,Passat,2.0L Turbo I4,215.0,210.0,7.8,25000.0,Petrol,5.0,250.0,1984.0
+Volkswagen,Tiguan,2.0L Turbo I4,190.0,209.0,8.5,28505.0,"Hybrid, Petrol",7.0,300.0,1984.0
+Volkswagen,Jetta,1.5L Turbo I4,189.0,210.0,7.7,21995.0,Petrol,5.0,250.0,1498.0
+Volkswagen,Polo,1.0L Turbo I3 / 1.6L Diesel,140.0,190.0,9.5,18000.0,Petrol,5.0,175.0,1298.0
+Volkswagen,Arteon,2.0L Turbo I4,215.0,250.0,5.6,46000.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Touareg,3.0L V6 Turbo Diesel / 4.0L V8,365.5,235.0,5.9,55000.0,"Diesel, Petrol",5.0,600.0,3461.0
+Volkswagen,Scirocco,2.0L Turbo I4,202.5,233.0,6.0,35000.0,Petrol,4.0,350.0,1984.0
+Volkswagen,Beetle,2.0L Turbo I4,157.5,205.0,7.0,20000.0,Petrol,4.0,240.0,1984.0
+Volkswagen,Amarok,3.0L V6 Turbo Diesel,210.5,180.0,7.9,40000.0,Diesel,5.0,550.0,2967.0
+Volkswagen,T-Roc,2.0L Turbo I4,207.5,205.0,7.2,30000.0,Petrol,5.0,320.0,1984.0
+Volkswagen,Sharan,2.0L Turbo I4,185.0,200.0,9.3,33000.0,"Diesel, Petrol",7.0,280.0,1984.0
+Volkswagen,Caddy,1.5L Turbo I4,126.0,185.0,10.5,28000.0,"Diesel, Petrol",7.0,250.0,1498.0
+Volkswagen,Taigo,1.5L Turbo I4,122.5,183.0,10.0,24000.0,Petrol,5.0,200.0,1498.0
+Volkswagen,Golf GTI,2.0L Turbo I4,245.0,250.0,5.9,31965.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Golf R,2.0L Turbo I4,315.0,250.0,4.6,44640.0,Petrol,5.0,420.0,1984.0
+Volkswagen,Passat Alltrack,2.0L Turbo Diesel I4,215.0,220.0,7.8,36000.0,Diesel,5.0,400.0,1968.0
+Volkswagen,Polo GTI,2.0L Turbo I4,204.0,238.0,6.7,28000.0,Petrol,5.0,320.0,1984.0
+Volkswagen,Up! GTI,1.0L Turbo I3,115.0,196.0,8.8,20000.0,Petrol,4.0,200.0,999.0
+Volkswagen,T-Cross,1.0L Turbo I3 / 1.5L Turbo I4,122.5,200.0,10.2,25000.0,Petrol,5.0,250.0,1248.0
+Volkswagen,Touareg R,Plug-in Hybrid V6,462.0,250.0,5.1,70000.0,Hybrid,5.0,700.0,2995.0
+Volkswagen,Multivan,Plug-in Hybrid / Diesel I4,184.0,190.0,9.4,50000.0,"Hybrid, Petrol",7.0,350.0,1681.0
+Volkswagen,Polo BlueMotion,1.2L Diesel I3,85.0,190.0,10.5,22000.0,Diesel,5.0,250.0,1199.0
+Volkswagen,Golf Sportsvan,1.5L Turbo I4,140.0,210.0,8.9,30000.0,Petrol,5.0,250.0,1498.0
+Volkswagen,Golf Alltrack,2.0L Turbo Diesel I4,173.5,210.0,7.1,35000.0,Petrol,5.0,350.0,1968.0
+Volkswagen,Scirocco R,2.0L Turbo I4,280.0,250.0,5.5,40000.0,Petrol,4.0,350.0,1984.0
+Volkswagen,Tiguan Allspace,2.0L Turbo I4,207.0,215.0,7.6,35000.0,Petrol,7.0,320.0,1984.0
+Volkswagen,Arteon 4MOTION,2.0L Turbo I4,255.0,250.0,5.6,48000.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Golf Variant,1.5L Turbo I4 / 2.0L Diesel I4,140.0,220.0,7.5,32000.0,Petrol,5.0,320.0,1733.0
+Volkswagen,Corrado,2.9L VR6,190.0,235.0,6.4,25000.0,Petrol,4.0,245.0,2861.0
+Volkswagen,Phaeton,3.0L V6 Diesel / 6.0L W12 Gas,345.0,250.0,6.1,85000.0,Petrol,5.0,560.0,4482.0
+Volkswagen,Golf Cabriolet,1.2L I4 Turbo / 2.0L I4 Turbo,157.5,217.0,8.4,30000.0,Petrol,4.0,200.0,1590.0
+Volkswagen,Polo Vivo,1.4L I4 Gas / 1.6L I4 Gas,95.0,170.0,10.8,14000.0,Petrol,5.0,132.0,1494.0
+Volkswagen,Vento,1.6L I4 Gas / Diesel,107.5,186.0,11.7,18000.0,Petrol,5.0,153.0,1598.0
+Volkswagen,Bora,1.6L I4 Gas / 1.9L I4 Diesel,125.0,200.0,9.4,20000.0,Petrol,5.0,220.0,1747.0
+Volkswagen,Teramont,2.0L I4 Turbo / 3.6L V6 Gas,255.5,190.0,8.6,32000.0,Petrol,7.0,350.0,2790.0
+Volkswagen,Taos,1.5L I4 Turbo,158.0,193.0,8.4,24000.0,Petrol,5.0,250.0,1498.0
+Volkswagen,T-Roc Cabriolet,1.0L I3 Turbo / 1.5L I4 Turbo,132.5,205.0,9.6,35000.0,Petrol,4.0,250.0,1248.0
+Volkswagen,Passat CC,2.0L I4 Turbo,240.0,240.0,7.3,40000.0,Petrol,5.0,280.0,1984.0
+Volkswagen,Amarok V6,3.0L V6 Turbo Diesel,231.0,191.0,7.9,45000.0,Diesel,5.0,580.0,2967.0
+Volkswagen,Polo TDI,1.4L I4 Diesel / 1.6L Diesel,90.0,190.0,9.9,20000.0,Diesel,5.0,250.0,1494.0
+Volkswagen,Golf GTE,Plug-in Hybrid (1.4L I4 Turbo),204.0,222.0,7.6,40000.0,Hybrid,5.0,350.0,1395.0
+Volkswagen,Beetle Dune,1.4L I4 Turbo,150.0,200.0,7.5,30000.0,Petrol,4.0,250.0,1395.0
+Volkswagen,Passat B8,1.5L I4 Turbo / 2.0L Diesel,215.0,210.0,8.7,28000.0,Petrol,5.0,250.0,1733.0
+Volkswagen,Golf Cabriolet,1.2L I4 Turbo / 2.0L I4 Turbo,157.5,217.0,8.4,30000.0,Petrol,4.0,200.0,1590.0
+Volkswagen,Golf Country,1.8L I4 Gas,98.0,165.0,12.0,25000.0,Petrol,5.0,170.0,1781.0
+Volkswagen,Jetta GLI,2.0L I4 Turbo,228.0,250.0,6.5,31000.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Arteon Shooting Brake,2.0L I4 Turbo,235.0,250.0,5.6,50000.0,Petrol,5.0,420.0,1984.0
+Volkswagen,T-Cross R-Line,1.0L I3 Turbo / 1.5L I4 Turbo,132.5,200.0,8.5,27000.0,Petrol,5.0,250.0,1248.0
+Volkswagen,Golf R32,3.2L VR6,240.0,250.0,6.2,40000.0,Petrol,5.0,320.0,3189.0
+Volkswagen,Passat B7,1.6L Diesel / 2.0L I4 Turbo,180.0,220.0,8.5,26000.0,Petrol,5.0,280.0,1791.0
+Volkswagen,Scirocco 16V,1.8L I4 Gas,137.0,220.0,7.1,35000.0,Petrol,4.0,230.0,1781.0
+Volkswagen,Polo BlueMotion,1.2L Diesel I3,85.0,190.0,10.5,20000.0,Diesel,5.0,210.0,1199.0
+Volkswagen,Golf Variant GTD,2.0L Diesel I4,184.0,230.0,7.5,38000.0,Diesel,5.0,380.0,1968.0
+Volkswagen,Polo GTI R5,1.6L Turbocharged Rally Engine,272.0,200.0,4.1,45000.0,Petrol,5.0,400.0,1598.0
+Volkswagen,Jetta Hybrid,1.4L I4 Turbo + Electric Motor,170.0,210.0,8.6,28000.0,Hybrid,5.0,250.0,1395.0
+Volkswagen,Golf Variant Alltrack,2.0L Diesel I4,175.0,220.0,7.8,35000.0,Petrol,5.0,320.0,1968.0
+Volkswagen,Volkswagen XL1,Plug-in Hybrid (0.8L I2 Diesel),68.0,160.0,11.9,150000.0,Hybrid,2.0,140.0,800.0
+Volkswagen,Golf TDI,2.0L Diesel I4,167.0,220.0,8.0,28000.0,Diesel,5.0,350.0,1968.0
+Volkswagen,Passat Variant,1.5L I4 Turbo / 2.0L Diesel,195.0,220.0,8.5,30000.0,Petrol,5.0,280.0,1733.0
+Volkswagen,Polo GTI Clubsport,2.0L I4 Turbo,300.0,240.0,6.7,30000.0,Petrol,5.0,320.0,1984.0
+Volkswagen,Jetta Hybrid,1.4L I4 Turbo + Electric Motor,170.0,210.0,8.6,28000.0,Hybrid,5.0,250.0,1395.0
+Volkswagen,Arteon R-Line,2.0L I4 Turbo,235.0,250.0,5.6,50000.0,Petrol,5.0,420.0,1984.0
+Volkswagen,Golf TGI,1.5L I4 CNG,130.0,220.0,8.8,30000.0,Petrol,5.0,200.0,1498.0
+Volkswagen,Scirocco GTS,2.0L I4 Turbo,220.0,246.0,6.5,35000.0,Petrol,4.0,350.0,1984.0
+Volkswagen,Caddy Maxi,2.0L Diesel I4,136.0,180.0,12.0,25000.0,Diesel,7.0,250.0,1968.0
+Volkswagen,Polo Beats,1.0L I3 Turbo,95.0,187.0,9.5,22000.0,Petrol,5.0,175.0,999.0
+Volkswagen,Passat Hybrid,1.4L I4 Turbo + Electric Motor,215.0,210.0,7.4,32000.0,Hybrid,5.0,330.0,1395.0
+Volkswagen,Golf TCR,2.0L I4 Turbo,290.0,250.0,5.6,40000.0,Petrol,5.0,370.0,1984.0
+Volkswagen,Tiguan R-Line,2.0L I4 Turbo,210.0,250.0,4.9,45000.0,Petrol,5.0,420.0,1984.0
+Volkswagen,Sharan Business,2.0L Diesel I4,167.0,200.0,8.3,35000.0,Diesel,7.0,350.0,1968.0
+Volkswagen,Arteon 280 TSI,2.0L I4 Turbo,280.0,250.0,5.6,50000.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Jetta GLI 35th,2.0L I4 Turbo,228.0,250.0,6.5,31000.0,Petrol,5.0,350.0,1984.0
+Volkswagen,Beetle Final Edition,2.0L I4 Turbo,174.0,205.0,7.0,25000.0,Petrol,4.0,250.0,1984.0
+Volkswagen,Golf Variant TDI,2.0L Diesel I4,167.0,220.0,7.8,30000.0,Diesel,5.0,350.0,1968.0
+Volkswagen,Golf 4MOTION,2.0L Diesel I4,167.0,250.0,4.9,40000.0,Petrol,5.0,400.0,1968.0
+Volkswagen,Jetta SportWagen,1.4L I4 Turbo / 2.0L Diesel I4,148.5,200.0,8.5,27000.0,Petrol,5.0,250.0,1681.0
+Volkswagen,Polo GTI Plus,2.0L I4 Turbo,207.0,237.0,6.7,30000.0,Petrol,5.0,320.0,1984.0
+Volkswagen,Touareg V6,3.0L V6 Turbo Diesel / Gasoline,285.5,235.0,7.5,60000.0,Petrol,5.0,450.0,2967.0
+Volkswagen,Tiguan eHybrid,1.4L I4 Turbo + Electric Motor,245.0,200.0,7.5,42000.0,Hybrid,5.0,400.0,1395.0
+Volkswagen,Amarok V8,4.0L V8 Turbo Diesel,325.0,210.0,7.4,70000.0,Diesel,5.0,580.0,3996.0
+Volkswagen,Golf R Cabriolet,2.0L I4 Turbo,265.0,250.0,5.9,45000.0,Petrol,4.0,380.0,1984.0
+Volkswagen,Passat Alltrack TDI,2.0L Diesel I4,190.0,220.0,8.0,40000.0,Diesel,5.0,400.0,1968.0
+Nissan,Versa,1.6L Inline-4,122.0,180.0,10.4,16700.0,Petrol,5.0,154.0,1598.0
+Nissan,Micra,1.0L Turbocharged Inline-3,100.0,175.0,10.8,15500.0,Petrol,5.0,160.0,999.0
+Nissan,Patrol Platinum,5.6L V8,400.0,210.0,7.3,77000.0,Petrol,7.0,560.0,5552.0
+Nissan,Qashqai,1.3L Turbocharged Inline-4,156.0,195.0,8.9,26000.0,Petrol,5.0,260.0,1332.0
+Nissan,Murano,3.5L V6,260.0,210.0,7.5,39000.0,Petrol,5.0,325.0,3498.0
+Nissan,Maxima Platinum,3.5L V6,300.0,220.0,6.2,45000.0,Petrol,5.0,353.0,3498.0
+Nissan,Kicks,1.6L Inline-4,122.0,180.0,10.7,20000.0,Petrol,5.0,154.0,1598.0
+Nissan,X-Trail,1.5L Turbocharged Inline-3,201.0,200.0,8.0,29000.0,Hybrid,5.0,305.0,1498.0
+Nissan,Z (Fairlady Z),3.0L Twin-Turbo V6,400.0,250.0,4.5,40000.0,Petrol,2.0,475.0,2997.0
+Nissan,Almera,1.0L Turbocharged Inline-3,100.0,185.0,10.7,14500.0,Petrol,5.0,160.0,999.0
+Nissan,Sylphy,1.8L Inline-4,137.0,190.0,9.6,18000.0,Petrol,5.0,174.0,1798.0
+Nissan,Note,1.2L Inline-3 Hybrid,109.0,170.0,11.5,16000.0,Hybrid,5.0,150.0,1198.0
+Nissan,Sunny,1.6L Inline-4,118.0,180.0,11.0,15000.0,Petrol,5.0,156.0,1598.0
+Nissan,Cube,1.8L Inline-4,122.0,175.0,10.6,14500.0,Petrol,5.0,171.0,1798.0
+Nissan,Juke,1.0L Turbocharged Inline-3,117.0,180.0,10.4,25000.0,Petrol,5.0,180.0,999.0
+Nissan,Xterra,4.0L V6,261.0,200.0,7.8,35000.0,Petrol,7.0,381.0,3954.0
+Nissan,Patrol,5.6L V8,400.0,210.0,7.3,77000.0,Petrol,7.0,560.0,5552.0
+Nissan,370Z Roadster,3.7L V6,332.0,250.0,5.5,41820.0,Petrol,2.0,366.0,3696.0
+Nissan,Patrol Royale,5.6L V8,400.0,210.0,6.6,85000.0,Petrol,7.0,560.0,5552.0
+Nissan,Infiniti QX80*,5.6L V8,400.0,210.0,6.5,70600.0,Petrol,7.0,560.0,5552.0
+Nissan,Tiida,1.6L Inline-4,126.0,190.0,10.1,14500.0,Petrol,5.0,154.0,1598.0
+Nissan,Pulsar,1.2L Turbocharged Inline-4,115.0,190.0,10.7,19000.0,Petrol,5.0,190.0,1197.0
+Nissan,Latio,1.5L Inline-4,102.0,175.0,11.5,13000.0,Petrol,5.0,139.0,1498.0
+Nissan,Bluebird Sylphy,2.0L Inline-4,133.0,185.0,10.5,18500.0,Petrol,5.0,191.0,1997.0
+Nissan,Rogue Sport,2.0L Inline-4,141.0,190.0,9.8,24960.0,Petrol,5.0,199.0,1997.0
+Nissan,X-Trail Hybrid,2.0L Inline-4 Hybrid,179.0,180.0,9.4,28500.0,Hybrid,5.0,207.0,1997.0
+Nissan,Pathfinder Rock Creek,3.5L V6,284.0,190.0,7.4,42820.0,Petrol,7.0,351.0,3498.0
+Nissan,370Z NISMO,3.7L V6,350.0,250.0,5.2,45790.0,Petrol,2.0,374.0,3696.0
+Nissan,Patrol NISMO,5.6L V8,428.0,210.0,6.5,105000.0,Petrol,7.0,560.0,5552.0
+Nissan,Infiniti Q60*,3.0L V6 Twin-Turbo,300.0,250.0,5.0,41750.0,Petrol,4.0,400.0,2997.0
+Nissan,Primera,2.0L Inline-4,140.0,200.0,9.6,20000.0,Petrol,5.0,190.0,1998.0
+Nissan,Skyline,3.0L V6 Twin-Turbo,400.0,250.0,5.0,50000.0,Petrol,5.0,475.0,2997.0
+Nissan,Cedric,2.0L Inline-6,150.0,190.0,10.5,22000.0,Petrol,5.0,190.0,1998.0
+Nissan,Gloria,2.5L V6,210.0,210.0,8.6,30000.0,Petrol,5.0,250.0,2498.0
+Nissan,Stanza,1.8L Inline-4,120.0,175.0,11.0,18500.0,Petrol,5.0,170.0,1796.0
+Nissan,Patrol Super Safari,4.8L Inline-6,280.0,190.0,8.2,55000.0,Petrol,7.0,451.0,4750.0
+Nissan,Pathfinder Hybrid,2.5L Inline-4 Hybrid,250.0,190.0,7.7,42500.0,Hybrid,7.0,329.0,2488.0
+Nissan,X-Terra Pro-4X,2.5L Inline-4,190.0,175.0,10.8,40000.0,Petrol,7.0,240.0,2498.0
+Nissan,Rogue Platinum,1.5L Turbo Inline-3,201.0,180.0,8.2,38000.0,Petrol,5.0,300.0,1497.0
+Nissan,Qashqai Tekna,1.3L Turbo Hybrid Inline-4,158.0,190.0,9.2,36000.0,Hybrid,5.0,270.0,1332.0
+Nissan,Skyline NISMO,3.0L Twin-Turbo V6,420.0,270.0,4.7,55000.0,Petrol,5.0,475.0,2997.0
+Nissan,Patrol Titanium,5.6L V8,428.0,210.0,6.5,98000.0,Petrol,7.0,560.0,5552.0
+Nissan,Infiniti FX50*,5.0L V8,390.0,250.0,5.6,61750.0,Petrol,5.0,500.0,5026.0
+Nissan,Avenir,2.0L Inline-4,140.0,180.0,9.8,20000.0,Petrol,5.0,186.0,1998.0
+Nissan,Wingroad,1.8L Inline-4,125.0,175.0,10.8,18000.0,Petrol,5.0,168.0,1798.0
+Nissan,Presea,1.8L Inline-4,115.0,170.0,11.5,17500.0,Petrol,5.0,161.0,1838.0
+Nissan,Leopard,3.0L V6,210.0,200.0,8.4,32000.0,Petrol,5.0,265.0,2960.0
+Nissan,Sunny NISMO Edition,1.6L Turbo Inline-4,190.0,200.0,7.5,24000.0,Petrol,5.0,240.0,1598.0
+Nissan,Paladin,2.4L Inline-4,150.0,180.0,10.6,20000.0,Petrol,5.0,217.0,2438.0
+Nissan,Hardbody SUV,2.5L Inline-4,158.0,175.0,11.0,18500.0,Petrol,5.0,225.0,2498.0
+Nissan,Patrol Desert Edition,5.6L V8,428.0,210.0,6.5,95000.0,Petrol,7.0,560.0,5552.0
+Nissan,Pathfinder Armada,5.6L V8,400.0,200.0,6.5,60000.0,Petrol,7.0,560.0,5552.0
+Nissan,Rogue Midnight Edition,1.5L Turbo Inline-3,201.0,180.0,8.2,39000.0,Petrol,5.0,300.0,1497.0
+Nissan,Fairlady Z Heritage,3.0L Twin-Turbo V6,400.0,250.0,4.2,48000.0,Petrol,2.0,475.0,2997.0
+Nissan,Skyline GT-R R34,2.6L Twin-Turbo Inline-6,276.0,250.0,5.6,70000.0,Petrol,4.0,392.0,2568.0
+Nissan,Infiniti QX55*,2.0L VC-Turbo Inline-4,268.0,230.0,6.5,50000.0,Petrol,5.0,380.0,1997.0
+Nissan,Navara,2.3L Inline-4 Diesel,190.0,180.0,10.2,32000.0,Diesel,5.0,450.0,2298.0
+Nissan,Titan XD,5.6L V8,400.0,195.0,6.9,55000.0,Petrol,6.0,560.0,5552.0
+Nissan,Silvia,2.0L Turbo Inline-4,247.0,235.0,5.9,45000.0,Petrol,4.0,275.0,1998.0
+Nissan,NX Coupe,2.0L Inline-4,140.0,200.0,9.0,22000.0,Petrol,4.0,180.0,1998.0
+Nissan,Patrol Super Safari Y61,4.8L Inline-6,280.0,190.0,8.2,58000.0,Petrol,7.0,451.0,4750.0
+Nissan,Pathfinder Rock Creek Edition,3.5L V6,284.0,195.0,7.2,44000.0,Petrol,7.0,351.0,3498.0
+Nissan,Murano CrossCabriolet,3.5L V6,260.0,195.0,7.6,47000.0,Petrol,4.0,325.0,3498.0
+Nissan,X-Trail Tekna,1.5L Turbo Hybrid,204.0,190.0,8.0,43000.0,Hybrid,5.0,305.0,1497.0
+Nissan,Skyline 400R,3.0L Twin-Turbo V6,400.0,250.0,4.5,70000.0,Petrol,5.0,475.0,2997.0
+Nissan,Infiniti G37*,3.7L V6,328.0,250.0,5.5,42000.0,Petrol,5.0,365.0,3696.0
+Nissan,Patrol Black Edition,5.6L V8,400.0,200.0,6.5,85000.0,Petrol,7.0,560.0,5552.0
+Nissan,Datsun 510 (Classic),1.6L Inline-4,96.0,175.0,10.2,25000.0,Petrol,4.0,135.0,1595.0
+Nissan,200SX,2.0L Turbo Inline-4,200.0,240.0,7.2,30000.0,Petrol,4.0,265.0,1998.0
+Nissan,300ZX,3.0L Twin-Turbo V6,300.0,250.0,5.9,50000.0,Petrol,4.0,384.0,2960.0
+Nissan,Hardbody Truck,2.4L Inline-4,134.0,160.0,10.6,25000.0,Petrol,5.0,206.0,2389.0
+Nissan,Bluebird Z,2.0L Inline-4,140.0,190.0,11.0,23000.0,Petrol,5.0,180.0,1998.0
+Nissan,Stanza Wagon,2.4L Inline-4,138.0,160.0,12.0,22000.0,Petrol,7.0,205.0,2389.0
+Nissan,180SX,2.0L Turbo Inline-4,205.0,240.0,6.8,35000.0,Petrol,4.0,275.0,1998.0
+Nissan,Sunny California,1.6L Inline-4,110.0,170.0,11.0,18000.0,Petrol,5.0,140.0,1597.0
+Nissan,Patrol Warrior,5.6L V8,428.0,205.0,6.3,95000.0,Petrol,7.0,580.0,5552.0
+Nissan,Pathfinder Armada Platinum,5.6L V8,400.0,190.0,6.8,70000.0,Petrol,7.0,560.0,5552.0
+Nissan,Rogue Sport SL,2.0L Inline-4,141.0,190.0,9.0,32000.0,Petrol,5.0,195.0,1998.0
+Nissan,X-Trail Platinum Edition,1.5L Turbo Hybrid,204.0,190.0,8.0,46000.0,Hybrid,5.0,305.0,1497.0
+Nissan,Qashqai e-Power,1.5L Hybrid,187.0,200.0,7.5,40000.0,Hybrid,5.0,330.0,1497.0
+Nissan,Infiniti M45*,4.5L V8,325.0,250.0,5.8,50000.0,Petrol,5.0,451.0,4494.0
+Nissan,Skyline 50th Anniversary,3.0L Twin-Turbo V6,400.0,250.0,4.5,75000.0,Petrol,5.0,475.0,2997.0
+Nissan,Patrol Legend Edition,5.6L V8,428.0,205.0,6.3,95000.0,Petrol,7.0,580.0,5552.0
+Nissan,Datsun 240Z (Classic),2.4L Inline-6,151.0,210.0,8.0,45000.0,Petrol,2.0,198.0,2393.0
+Nissan,100NX,1.6L Inline-4,110.0,185.0,9.6,18000.0,Petrol,4.0,135.0,1597.0
+Nissan,Cedric Special Edition,3.0L V6,250.0,225.0,8.5,60000.0,Petrol,5.0,330.0,2960.0
+Nissan,300ZX Turbo,3.0L Twin-Turbo V6,300.0,250.0,5.9,55000.0,Petrol,4.0,384.0,2960.0
+Nissan,Silvia S15 Spec-R,2.0L Turbo Inline-4,250.0,240.0,5.6,35000.0,Petrol,4.0,300.0,1998.0
+Nissan,Titan Warrior,5.6L V8,400.0,180.0,7.0,55000.0,Petrol,5.0,560.0,5552.0
+Nissan,Serena e-Power,1.2L Hybrid,134.0,160.0,12.0,35000.0,Hybrid,7.0,320.0,1198.0
+Nissan,Elgrand,3.5L V6,280.0,200.0,8.5,50000.0,Petrol,7.0,344.0,3498.0
+Nissan,Datsun 510,1.6L Inline-4,96.0,175.0,10.2,25000.0,Petrol,4.0,135.0,1595.0
+Nissan,Prairie,2.0L Inline-4,120.0,175.0,11.0,18000.0,Petrol,5.0,170.0,1998.0
+Nissan,Pulsar GTI-R,2.0L Turbo Inline-4,230.0,225.0,6.0,30000.0,Petrol,5.0,280.0,1998.0
+Nissan,Lucino,1.6L Inline-4,115.0,185.0,10.5,12000.0,Petrol,5.0,150.0,1597.0
+Nissan,Patrol Y60,4.2L Inline-6,155.0,160.0,12.0,45000.0,Diesel,7.0,330.0,4169.0
+Nissan,X-Trail GT,2.0L Turbo Inline-4,280.0,215.0,6.4,38000.0,Petrol,5.0,310.0,1998.0
+Nissan,Terrano Regulus,3.3L V6,170.0,175.0,10.0,28000.0,Petrol,5.0,290.0,3275.0
+Nissan,President,4.5L V8,280.0,210.0,7.5,70000.0,Petrol,5.0,400.0,4494.0
+Nissan,Cima,4.1L V8,270.0,210.0,8.0,60000.0,Petrol,5.0,390.0,4130.0
+Nissan,Leopard J. Ferie,3.0L V6 Turbo,255.0,215.0,6.5,45000.0,Petrol,5.0,340.0,2960.0
+Nissan,Gloria Gran Turismo,3.0L V6 Turbo,255.0,220.0,6.5,50000.0,Petrol,5.0,340.0,2960.0
+Nissan,Infiniti Q45*,4.5L V8,340.0,240.0,6.2,50000.0,Petrol,5.0,450.0,4494.0
+Nissan,Datsun 240Z,2.4L Inline-6,151.0,210.0,8.0,45000.0,Petrol,2.0,198.0,2393.0
+Nissan,280ZX,2.8L Inline-6,145.0,205.0,9.5,35000.0,Petrol,2.0,210.0,2753.0
+Nissan,Silvia S13,1.8L Turbo Inline-4,175.0,215.0,6.8,20000.0,Petrol,4.0,230.0,1809.0
+Nissan,200SX,2.0L Turbo Inline-4,200.0,225.0,7.0,25000.0,Petrol,4.0,260.0,1998.0
+Nissan,NX Coupe,1.8L Inline-4,140.0,200.0,9.0,18000.0,Petrol,4.0,180.0,1839.0
+Nissan,NV2500,4.0L V6,261.0,160.0,10.0,36000.0,Petrol,2.0,385.0,3954.0
+Nissan,NV3500,5.6L V8,375.0,170.0,9.0,42000.0,Petrol,2.0,525.0,5552.0
+Porsche,Panamera,2.9L V6 Twin Turbo,330.0,270.0,5.6,88000.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera 4,2.9L V6 Twin Turbo,330.0,270.0,5.4,92000.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera 4S,2.9L V6 Twin Turbo,440.0,289.0,4.4,105000.0,Petrol,4.0,550.0,2894.0
+Porsche,Panamera GTS,4.0L V8 Twin Turbo,473.0,300.0,3.9,130000.0,Petrol,4.0,620.0,3996.0
+Porsche,Panamera Platinum Edition,2.9L V6 Twin Turbo,330.0,270.0,5.4,102000.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera 4 Executive,2.9L V6 Twin Turbo,330.0,270.0,5.6,95000.0,Petrol,4.0,450.0,2894.0
+Porsche,Cayenne,3.0L V6 Turbo,335.0,245.0,5.9,80000.0,Petrol,5.0,450.0,2995.0
+Porsche,Cayenne Coupe,3.0L V6 Turbo,335.0,245.0,6.0,85000.0,Petrol,5.0,450.0,2995.0
+Porsche,Cayenne S,2.9L V6 Twin Turbo,434.0,265.0,5.0,95000.0,Petrol,5.0,550.0,2894.0
+Porsche,Cayenne GTS,4.0L V8 Twin Turbo,453.0,270.0,4.5,110000.0,Petrol,5.0,620.0,3996.0
+Porsche,Macan,2.0L I4 Turbo,261.0,232.0,6.2,60000.0,Petrol,5.0,400.0,1984.0
+Porsche,Macan S,2.9L V6 Twin Turbo,375.0,259.0,4.8,75000.0,Petrol,5.0,520.0,2894.0
+Porsche,Macan GTS,2.9L V6 Twin Turbo,434.0,272.0,4.5,85000.0,Petrol,5.0,550.0,2894.0
+Porsche,Macan T,2.0L I4 Turbo,261.0,232.0,6.2,65000.0,Petrol,5.0,400.0,1984.0
+Porsche,911 Carrera,3.0L Flat-6 Twin Turbo,379.0,293.0,4.2,110000.0,Petrol,4.0,450.0,2981.0
+Porsche,911 Carrera 4,3.0L Twin-Turbo Flat-6,379.0,293.0,4.2,106500.0,Petrol,4.0,450.0,2981.0
+Porsche,911 Targa 4,3.0L Twin-Turbo Flat-6,379.0,289.0,4.4,121300.0,Petrol,4.0,450.0,2981.0
+Porsche,718 Cayman,2.0L Turbocharged Flat-4,300.0,275.0,4.9,63400.0,Petrol,2.0,380.0,1988.0
+Porsche,718 Cayman S,2.5L Turbocharged Flat-4,350.0,285.0,4.4,75400.0,Petrol,2.0,420.0,2497.0
+Porsche,718 Boxster,2.0L Turbo Flat-4,300.0,275.0,4.9,65500.0,Petrol,2.0,380.0,1988.0
+Porsche,718 Boxster T,2.0L Turbo Flat-4,300.0,275.0,4.7,69600.0,Petrol,2.0,380.0,1988.0
+Porsche,718 Boxster GTS,4.0L Naturally Aspirated Flat-6,394.0,293.0,4.3,90300.0,Petrol,2.0,430.0,3995.0
+Porsche,Panamera Base,2.9L Twin-Turbo V6,325.0,265.0,5.6,92300.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera 4 E-Hybrid,2.9L Twin-Turbo V6 + Electric Motor,462.0,280.0,4.4,113300.0,Hybrid,4.0,700.0,2894.0
+Porsche,Panamera 4 Sport Turismo,2.9L Twin-Turbo V6,325.0,265.0,5.5,101400.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera Platinum Edition,2.9L Twin-Turbo V6,325.0,265.0,5.6,98300.0,Petrol,4.0,450.0,2894.0
+Porsche,Panamera GTS Sport Turismo,4.0L Twin-Turbo V8,473.0,300.0,3.9,136900.0,Petrol,4.0,620.0,3996.0
+Porsche,Panamera 4S ,2.9L Twin-Turbo V6,443.0,289.0,4.1,105000.0,Petrol,4.0,550.0,2894.0
+Porsche,Macan Base,2.0L Turbo Inline-4,265.0,232.0,6.4,58000.0,Petrol,5.0,400.0,1984.0
+Porsche,Macan T,2.0L Turbo Inline-4,265.0,233.0,6.2,63000.0,Petrol,5.0,400.0,1984.0
+Porsche,Macan S,2.9L Twin-Turbo V6,375.0,259.0,4.6,70400.0,Petrol,5.0,520.0,2894.0
+Porsche,Macan GTS,2.9L Twin-Turbo V6,434.0,272.0,4.3,82900.0,Petrol,5.0,550.0,2894.0
+Porsche,Cayenne Base,3.0L Turbocharged V6,335.0,245.0,5.9,72200.0,Petrol,5.0,450.0,2995.0
+Porsche,Cayenne E-Hybrid,3.0L V6 + Electric Motor,455.0,253.0,4.8,91000.0,Hybrid,5.0,700.0,2995.0
+Porsche,Cayenne S Coupe,2.9L Twin-Turbo V6,434.0,263.0,4.7,94300.0,Petrol,4.0,550.0,2894.0
+Porsche,Cayenne Platinum Edition,3.0L Turbocharged V6,335.0,245.0,5.8,79000.0,Petrol,5.0,450.0,2995.0
+Porsche,Cayenne GTS Coupe,4.0L Twin-Turbo V8,453.0,270.0,4.5,111200.0,Petrol,4.0,620.0,3996.0
+Porsche,Cayenne Diesel (Regional Markets),3.0L Turbo Diesel V6,262.0,221.0,7.3,69000.0,Diesel,5.0,580.0,2967.0
+Porsche,Cayenne S Hybrid,3.0L V6 + Electric Motor,380.0,242.0,6.5,85500.0,Hybrid,5.0,580.0,2995.0
+Cadillac,CT4,2.0L Turbo Inline-4 Gasoline,237.0,250.0,6.0,34395.0,Petrol,5.0,350.0,2000.0
+Cadillac,CT4-V,2.7L Turbo Inline-4 Gasoline,325.0,260.0,4.9,46595.0,Petrol,5.0,500.0,2700.0
+Cadillac,CT5,2.0L Turbo Inline-4 Gasoline,237.0,240.0,6.6,38195.0,Petrol,5.0,350.0,2000.0
+Cadillac,CT5-V,3.0L Twin-Turbo V6 Gasoline,360.0,250.0,4.6,50995.0,Petrol,5.0,550.0,3000.0
+Porsche,911 Carrera Base,3.0L Twin-Turbo Flat-6,379.0,293.0,4.2,106100.0,Petrol,4.0,450.0,2981.0
+Porsche,911 Carrera 4,3.0L Twin-Turbo Flat-6,379.0,293.0,4.4,113300.0,Petrol,4.0,450.0,2981.0
+Porsche,911 Targa 4 Lightweight,3.0L Twin-Turbo Flat-6,379.0,289.0,4.3,135500.0,Petrol,4.0,450.0,2981.0
+Porsche,911 Sport Turismo,3.0L Twin-Turbo Flat-6,379.0,293.0,4.4,116000.0,Petrol,4.0,450.0,2981.0
+Tata Motors,Altroz,1.2L Revotron Petrol / 1.5L Diesel,87.5,170.0,12.0,10400.0,"Diesel, Petrol",5.0,156.5,1348.0
+Tata Motors,Altroz iTurbo,1.2L Turbocharged Petrol,110.0,180.0,10.0,12000.0,Petrol,5.0,140.0,1199.0
+Tata Motors,Nexon,1.2L Turbo Petrol / 1.5L Diesel,114.0,180.0,10.0,14000.0,"Diesel, Petrol",5.0,215.0,1348.0
+Tata Motors,Harrier,2.0L Kryotec Turbocharged Diesel,168.0,180.0,11.0,23000.0,Diesel,5.0,350.0,1956.0
+Tata Motors,Safari,2.0L Kryotec Turbocharged Diesel,168.0,180.0,11.0,25500.0,Diesel,7.0,350.0,1956.0
+Tata Motors,Hexa,2.2L Varicor Diesel,154.0,180.0,12.0,20000.0,Diesel,7.0,400.0,2179.0
+Jeep,Wrangler,3.6L V6 Pentastar Gasoline,285.0,180.0,6.8,35195.0,Petrol,4.0,353.0,3600.0
+Jeep,Wrangler Rubicon,2.0L Turbo I4 Gasoline,270.0,180.0,7.1,42100.0,Petrol,4.0,400.0,2000.0
+Jeep,Grand Cherokee,3.6L V6 Pentastar Gasoline,293.0,209.0,7.0,41530.0,Petrol,5.0,352.0,3600.0
+Jeep,Grand Cherokee L,3.6L V6 Pentastar Gasoline,293.0,209.0,7.2,43530.0,Petrol,7.0,352.0,3600.0
+Jeep,Cherokee,2.4L I4 Tigershark Gasoline,180.0,195.0,8.5,37695.0,Petrol,5.0,230.0,2400.0
+Jeep,Compass,2.0L Turbo Gasoline,200.0,200.0,7.8,31590.0,Petrol,5.0,320.0,2000.0
+Jeep,Renegade,1.3L Turbo I4 Gasoline,177.0,200.0,8.7,28345.0,Petrol,5.0,285.0,1300.0
+Jeep,Gladiator,3.6L V6 Pentastar Gasoline,285.0,177.0,8.1,38775.0,Petrol,5.0,353.0,3600.0
+Mazda,Mazda2,1.5L 4-Cylinder,108.0,180.0,10.2,18500.0,Petrol,5.0,142.0,1500.0
+Jeep,Gladiator Mojave Edition,3.6L V6 Pentastar Gasoline,285.0,177.0,8.6,51570.0,Petrol,5.0,353.0,3600.0
+Jeep,Grand Cherokee Summit Reserve,5.7L V8 Gasoline,357.0,190.0,7.3,66575.0,Petrol,5.0,529.0,5700.0
+Jeep,Jeep Cherokee X Edition,3.2L V6 Pentastar Gasoline,271.0,195.0,7.6,41295.0,Petrol,5.0,324.0,3200.0
+Cadillac,XT4,2.0L Turbo Inline-4 Gasoline,235.0,220.0,7.6,37490.0,Petrol,5.0,350.0,2000.0
+Cadillac,XT5,3.6L V6 Gasoline,310.0,210.0,6.5,44195.0,Petrol,5.0,366.0,3600.0
+Cadillac,XT6,3.6L V6 Gasoline,310.0,210.0,6.9,48595.0,Petrol,7.0,366.0,3600.0
+Cadillac,CT4-V Blackwing,3.6L Twin-Turbo V6 Gasoline,472.0,290.0,3.9,60495.0,Petrol,5.0,603.0,3600.0
+Cadillac,XT4 Sport,2.0L Turbo Inline-4 Gasoline,235.0,220.0,7.4,41390.0,Petrol,5.0,350.0,2000.0
+Cadillac,XT5 Sport,3.6L V6 Gasoline,310.0,210.0,6.5,51095.0,Petrol,5.0,366.0,3600.0
+Cadillac,XT6 Sport,3.6L V6 Gasoline,310.0,210.0,6.9,57095.0,Petrol,7.0,366.0,3600.0
+Cadillac,CT5 Premium Luxury,2.0L Turbo Inline-4 Gasoline,237.0,240.0,6.8,41290.0,Petrol,5.0,350.0,2000.0
+Chevrolet,Spark,1.4L Inline-4 Gasoline,98.0,180.0,10.7,14595.0,Petrol,5.0,127.0,1400.0
+Chevrolet,Sonic,1.4L Turbo Inline-4 Gasoline,138.0,190.0,8.5,16720.0,Petrol,5.0,200.0,1400.0
+Chevrolet,Malibu,1.5L Turbo Inline-4 Gasoline,160.0,210.0,8.0,25000.0,Petrol,5.0,250.0,1500.0
+Chevrolet,Camaro,2.0L Turbo Inline-4 Gasoline,275.0,240.0,5.4,26400.0,Petrol,4.0,400.0,2000.0
+Chevrolet,Traverse,3.6L V6 Gasoline,310.0,210.0,7.0,35915.0,Petrol,7.0,360.0,3600.0
+Chevrolet,Equinox,1.5L Turbo Inline-4 Gasoline,170.0,200.0,8.9,26600.0,Petrol,5.0,275.0,1500.0
+Chevrolet,Blazer,3.6L V6 Gasoline,308.0,220.0,6.6,44000.0,Petrol,5.0,366.0,3600.0
+Chevrolet,Tahoe,5.3L V8 Gasoline,355.0,200.0,7.5,56995.0,Petrol,7.0,519.0,5300.0
+Chevrolet,Colorado,2.7L Turbo Inline-4 Gasoline,310.0,190.0,6.8,30695.0,Petrol,5.0,583.0,2700.0
+Chevrolet,Silverado 1500,5.3L V8 Gasoline,355.0,180.0,7.0,42795.0,Petrol,6.0,519.0,5300.0
+Chevrolet,Trailblazer,1.3L Turbo Inline-3 Gasoline,155.0,200.0,9.4,23100.0,Petrol,5.0,236.0,1300.0
+Chevrolet,Malibu Premier,2.0L Turbo Inline-4 Gasoline,250.0,240.0,5.8,33500.0,Petrol,5.0,353.0,2000.0
+Chevrolet,Silverado 1500 High Country,5.3L V8 Gasoline,355.0,180.0,7.0,61595.0,Petrol,6.0,519.0,5300.0
+Chevrolet,Silverado 1500 Trail Boss,5.3L V8 Gasoline,355.0,180.0,7.0,55895.0,Petrol,6.0,519.0,5300.0
+Chevrolet,Silverado 1500 RST,5.3L V8 Gasoline,355.0,180.0,7.1,50895.0,Petrol,6.0,519.0,5300.0
+Chevrolet,Colorado ZR2,2.8L Turbo Diesel I4,181.0,160.0,9.1,48295.0,Diesel,5.0,500.0,2800.0
+Chevrolet,Traverse Premier,3.6L V6 Gasoline,310.0,210.0,7.0,46600.0,Petrol,7.0,360.0,3600.0
+Chevrolet,Equinox Premier,1.5L Turbo Inline-4 Gasoline,170.0,200.0,8.8,33400.0,Petrol,5.0,275.0,1500.0
+Chevrolet,Blazer RS,3.6L V6 Gasoline,308.0,220.0,6.6,48900.0,Petrol,5.0,366.0,3600.0
+Chevrolet,Traverse RS,3.6L V6 Gasoline,310.0,210.0,7.0,43700.0,Petrol,7.0,360.0,3600.0
+Chevrolet,Blazer Premier,3.6L V6 Gasoline,308.0,220.0,6.6,45000.0,Petrol,5.0,366.0,3600.0
+Chevrolet,Malibu LT,1.5L Turbo Inline-4 Gasoline,160.0,210.0,8.5,25800.0,Petrol,5.0,250.0,1500.0
+Chevrolet,Spark Activ,1.4L Inline-4 Gasoline,98.0,180.0,11.0,17595.0,Petrol,5.0,127.0,1400.0
+Chevrolet,Trax LT,1.2L Turbo Inline-3 Gasoline,137.0,200.0,9.2,24100.0,Petrol,5.0,220.0,1200.0
+Chevrolet,Equinox LT,1.5L Turbo Inline-4 Gasoline,170.0,200.0,8.9,28400.0,Petrol,5.0,275.0,1500.0
+Chevrolet,Colorado WT,2.7L Turbo Inline-4 Gasoline,310.0,190.0,6.9,29200.0,Petrol,5.0,583.0,2700.0
+Chevrolet,Silverado Custom,4.3L V6 Gasoline,285.0,180.0,8.5,33900.0,Petrol,6.0,413.0,4300.0
+Chevrolet,Spark LS,1.4L Inline-4 Gasoline,98.0,180.0,10.9,14395.0,Petrol,5.0,127.0,1400.0
+Chevrolet,Traverse LT,3.6L V6 Gasoline,310.0,210.0,7.1,37200.0,Petrol,7.0,360.0,3600.0
+Chevrolet,Blazer LT,2.5L Inline-4 Gasoline,193.0,200.0,9.0,36100.0,Petrol,5.0,255.0,2500.0
+Chevrolet,Malibu Premier,2.0L Turbo Inline-4 Gasoline,250.0,240.0,5.8,34500.0,Petrol,5.0,353.0,2000.0
+Chevrolet,Equinox RS,1.5L Turbo Inline-4 Gasoline,170.0,200.0,8.8,31900.0,Petrol,5.0,275.0,1500.0
+Chevrolet,Silverado 1500 Custom,4.3L V6 Gasoline,285.0,180.0,8.6,34900.0,Petrol,6.0,413.0,4300.0
+Chevrolet,Tahoe RST,5.3L V8 Gasoline,355.0,180.0,7.4,64100.0,Petrol,7.0,519.0,5300.0
+Chevrolet,Tahoe RST,5.3L V8 Gasoline,355.0,180.0,7.4,64100.0,Petrol,7.0,519.0,5300.0
+Chevrolet,Tahoe Z71,5.3L V8 Gasoline,355.0,180.0,7.6,66700.0,Petrol,7.0,519.0,5300.0
+Gmc,Terrain,1.5L Turbo 4-cylinder,175.0,190.0,9.5,29900.0,Petrol,5.0,275.0,1500.0
+Gmc,Acadia,2.0L Turbo 4-cylinder,228.0,200.0,7.8,36800.0,Petrol,7.0,350.0,2000.0
+Gmc,Canyon,2.7L Turbo 4-cylinder,310.0,190.0,7.6,36900.0,Petrol,5.0,583.0,2700.0
+Gmc,Sierra 1500,5.3L V8 Gasoline,355.0,180.0,7.3,37100.0,Petrol,6.0,519.0,5300.0
+Gmc,Terrain AT4,1.5L Turbo 4-cylinder,175.0,190.0,9.6,36500.0,Petrol,5.0,275.0,1500.0
+Gmc,Acadia AT4,3.6L V6 Gasoline,310.0,210.0,7.6,41400.0,Petrol,6.0,366.0,3600.0
+Gmc,Sierra 1500 AT4,5.3L V8 Gasoline,355.0,180.0,7.4,53800.0,Petrol,6.0,519.0,5300.0
+Gmc,Sierra Elevation,2.7L Turbo 4-cylinder,310.0,190.0,7.6,45000.0,Petrol,5.0,583.0,2700.0
+Gmc,Canyon AT4,2.7L Turbo 4-cylinder,310.0,190.0,7.5,43900.0,Petrol,5.0,583.0,2700.0
+Gmc,Canyon Denali,2.7L Turbo 4-cylinder,310.0,190.0,7.5,48000.0,Petrol,5.0,583.0,2700.0
+Gmc,Terrain Denali,1.5L Turbo 4-cylinder,175.0,190.0,9.5,38600.0,Petrol,5.0,275.0,1500.0
+Gmc,Acadia Denali,3.6L V6 engine,310.0,210.0,6.5,54300.0,Petrol,7.0,366.0,3564.0
+Gmc,Sierra 1500 Elevation,2.7L Turbo engine,310.0,180.0,7.0,52000.0,Petrol,5.0,569.0,2713.0
+Gmc,Sierra 1500 SLT,5.3L V8 engine,355.0,180.0,6.8,56000.0,Petrol,5.0,519.0,5327.0
+Gmc,Canyon Elevation,2.5L I4 engine,200.0,175.0,8.5,36300.0,Petrol,5.0,259.0,2488.0
+Gmc,Canyon Denali Black Edition,3.6L V6 engine,308.0,180.0,6.9,44000.0,Petrol,5.0,373.0,3564.0
+Gmc,Terrain Elevation Edition,1.5L Turbocharged I4 engine,170.0,200.0,9.3,28700.0,Petrol,5.0,275.0,1490.0
+Gmc,Acadia Black Edition,3.6L V6 engine,310.0,210.0,6.5,45000.0,Petrol,7.0,366.0,3564.0
+Gmc,Canyon AT4X,3.6L V6 engine,308.0,180.0,6.9,50000.0,Petrol,5.0,373.0,3564.0
+Gmc,Sierra 1500 Pro,4.3L V6 engine,285.0,180.0,7.5,37700.0,Petrol,3.0,413.0,4300.0
+Gmc,Terrain SLT,1.5L Turbocharged I4 engine,170.0,200.0,9.4,31000.0,Petrol,5.0,275.0,1490.0
+Gmc,Acadia SLE,3.6L V6 engine,310.0,210.0,6.6,40000.0,Petrol,7.0,366.0,3564.0
+Gmc,Canyon SLT,2.5L I4 engine,200.0,175.0,8.6,38000.0,Petrol,5.0,259.0,2488.0
+Gmc,Canyon AT4X Edition 1,3.6L V6 engine,308.0,180.0,6.8,55000.0,Petrol,5.0,373.0,3564.0
+Gmc,Acadia Denali Ultimate,3.6L V6 engine,310.0,210.0,6.5,60000.0,Petrol,7.0,366.0,3564.0
+Gmc,Terrain All-Terrain Edition,1.5L Turbocharged I4 engine,170.0,200.0,9.3,35000.0,Petrol,5.0,275.0,1490.0
+Kia,Rio,1.6L 4-Cylinder,120.0,180.0,10.3,17000.0,Petrol,5.0,151.0,1591.0
+Kia,Rio 5-Door,1.6L 4-Cylinder,120.0,180.0,10.3,18000.0,Petrol,5.0,151.0,1591.0
+Kia,Seltos Nightfall Edition,1.6L Turbocharged 4-Cylinder,175.0,210.0,7.5,28000.0,Petrol,5.0,264.0,1591.0
+Peugeot,508 PSE (Peugeot Sport Engineered),Hybrid I4 + Electric Motor,360.0,250.0,5.2,55000.0,Hybrid,5.0,520.0,1599.0
+Kia,Sorento X-Line,2.5L Turbocharged 4-Cylinder,277.0,220.0,7.0,42000.0,Petrol,7.0,421.0,2500.0
+Kia,Telluride SX,3.8L V6,291.0,240.0,7.0,50000.0,Petrol,7.0,355.0,3778.0
+Kia,Forte LXS,2.0L 4-Cylinder,147.0,190.0,9.2,19000.0,Petrol,5.0,179.0,1999.0
+Kia,K5 EX,1.6L Turbocharged 4-Cylinder,180.0,220.0,7.8,28500.0,Petrol,5.0,264.0,1591.0
+Kia,Niro Plug-In Hybrid,1.6L 4-Cylinder Hybrid,139.0,180.0,10.5,33000.0,Hybrid,5.0,265.0,1591.0
+Kia,Soul Turbo,1.6L Turbocharged 4-Cylinder,201.0,200.0,6.5,28000.0,Petrol,5.0,264.0,1591.0
+Kia,Seltos SX,1.6L Turbocharged 4-Cylinder,175.0,210.0,7.5,28500.0,Petrol,5.0,264.0,1591.0
+Kia,Stinger Scorpion Edition,2.5L Turbocharged 4-Cylinder,300.0,270.0,5.0,55000.0,Petrol,5.0,422.0,2500.0
+Kia,Sorento Hybrid SX Prestige,1.6L Hybrid Turbocharged 4-Cylinder,227.0,200.0,7.9,47000.0,Hybrid,7.0,352.0,1591.0
+Kia,Telluride Nightfall Edition,3.8L V6,291.0,240.0,7.0,51000.0,Petrol,7.0,355.0,3778.0
+Peugeot,508 Plug-In Hybrid,Hybrid I4 + Electric Motor,225.0,210.0,7.5,44000.0,Hybrid,5.0,360.0,1598.0
+Kia,Niro Touring,1.6L 4-Cylinder Hybrid,139.0,180.0,10.5,33000.0,Hybrid,5.0,265.0,1591.0
+Kia,Forte GT-Line,1.6L Turbocharged 4-Cylinder,201.0,200.0,6.5,25000.0,Petrol,5.0,264.0,1591.0
+Kia,Seltos EX,2.0L 4-Cylinder,146.0,190.0,9.0,23500.0,Petrol,5.0,179.0,1999.0
+Peugeot,3008 Plug-In Hybrid,Hybrid I4 + Electric Motor,225.0,210.0,7.0,42000.0,Hybrid,5.0,360.0,1598.0
+Kia,Sorento LX,2.5L 4-Cylinder,191.0,210.0,8.5,35500.0,Petrol,7.0,246.0,2500.0
+Kia,Telluride EX,3.8L V6,291.0,240.0,7.0,44000.0,Petrol,7.0,355.0,3778.0
+Kia,Soul EX,2.0L 4-Cylinder,147.0,190.0,9.5,22000.0,Petrol,5.0,179.0,1999.0
+Kia,Forte FE,2.0L 4-Cylinder,147.0,190.0,9.2,18500.0,Petrol,5.0,179.0,1999.0
+Kia,K5 GT-Line,1.6L Turbocharged 4-Cylinder,180.0,220.0,7.8,29000.0,Petrol,5.0,264.0,1591.0
+Kia,Niro EX,1.6L 4-Cylinder Hybrid,139.0,180.0,10.5,30000.0,Hybrid,5.0,265.0,1591.0
+Kia,Stinger GT,3.3L Turbocharged V6,365.0,270.0,4.7,51500.0,Petrol,5.0,510.0,3300.0
+Kia,Sorento SX Prestige,2.5L Hybrid Turbocharged 4-Cylinder,227.0,200.0,7.9,48000.0,Hybrid,7.0,352.0,1591.0
+Kia,Telluride SX Prestige,3.8L V6,291.0,240.0,7.0,52000.0,Petrol,7.0,355.0,3778.0
+Peugeot,508 Hybrid4,Hybrid I4 + Electric Motor,300.0,235.0,6.0,47000.0,Hybrid,5.0,520.0,1598.0
+Kia,Niro SX Touring,1.6L 4-Cylinder Hybrid,139.0,180.0,10.5,34500.0,Hybrid,5.0,265.0,1591.0
+Kia,Seltos SX Turbo,1.6L Turbocharged 4-Cylinder,175.0,210.0,7.5,32000.0,Petrol,5.0,264.0,1591.0
+Kia,Forte EX Premium,2.0L 4-Cylinder,147.0,190.0,9.2,22500.0,Petrol,5.0,179.0,1999.0
+Kia,Soul EX Designer Edition,2.0L 4-Cylinder,147.0,190.0,9.5,23500.0,Petrol,5.0,179.0,1999.0
+Kia,Rio S,1.6L 4-Cylinder,120.0,180.0,10.3,17500.0,Petrol,5.0,151.0,1591.0
+Kia,Rio 5-Door S,1.6L 4-Cylinder,120.0,180.0,10.3,18000.0,Petrol,5.0,151.0,1591.0
+Kia,Soul S,2.0L 4-Cylinder,147.0,190.0,9.5,20500.0,Petrol,5.0,179.0,1999.0
+Kia,Seltos LX,2.0L 4-Cylinder,146.0,190.0,9.2,23000.0,Petrol,5.0,179.0,1999.0
+Peugeot,3008 Hybrid4,Hybrid I4+ Electric Motor,300.0,235.0,6.0,45000.0,Hybrid,5.0,520.0,1599.0
+Kia,Sorento Hybrid EX,1.6L Hybrid Turbocharged 4-Cylinder,227.0,200.0,7.9,47000.0,Hybrid,7.0,352.0,1591.0
+Kia,Telluride LX,3.8L V6,291.0,240.0,7.0,41500.0,Petrol,7.0,355.0,3778.0
+Kia,Forte GT Turbo,1.6L Turbocharged 4-Cylinder,201.0,200.0,6.5,25500.0,Petrol,5.0,264.0,1591.0
+Kia,Soul GT Designer Edition,2.0L 4-Cylinder,147.0,190.0,9.5,23000.0,Petrol,5.0,179.0,1999.0
+Kia,Seltos X-Line Turbo,1.6L Turbocharged 4-Cylinder,175.0,210.0,7.5,30000.0,Petrol,5.0,264.0,1591.0
+Kia,Telluride Limited Edition,3.8L V6,291.0,240.0,7.0,53000.0,Petrol,7.0,355.0,3778.0
+Kia,Stinger GT-Line,2.5L Turbocharged 4-Cylinder,300.0,270.0,5.0,50000.0,Petrol,5.0,422.0,2500.0
+Kia,Niro SX Hybrid,1.6L Hybrid Turbocharged 4-Cylinder,139.0,180.0,10.5,36000.0,Hybrid,5.0,265.0,1591.0
+Kia,Sorento X-Pro Hybrid,1.6L Hybrid Turbocharged 4-Cylinder,227.0,200.0,7.8,49000.0,Hybrid,7.0,352.0,1591.0
+Kia,Forte Limited Edition,2.0L 4-Cylinder,147.0,190.0,9.2,22500.0,Petrol,5.0,179.0,1999.0
+Jaguar Land Rover,Jaguar F-Type,V6 / V8 Petrol,335.0,260.0,5.1,70000.0,Petrol,2.0,450.0,2995.0
+Jaguar Land Rover,Jaguar XE,I4 Petrol,250.0,250.0,6.5,45000.0,Petrol,5.0,365.0,1999.0
+Jaguar Land Rover,Jaguar XF,I4 Petrol,250.0,250.0,6.5,50000.0,Petrol,5.0,365.0,1999.0
+Jaguar Land Rover,Jaguar XJ,V6 Petrol,300.0,250.0,6.0,85000.0,Petrol,5.0,400.0,2995.0
+Jaguar Land Rover,Jaguar E-PACE,I4 Petrol,200.0,230.0,7.0,50000.0,Petrol,5.0,430.0,1999.0
+Jaguar Land Rover,Jaguar F-PACE,I4 Petrol / V6 Petrol,295.0,230.0,6.300000000000001,60000.0,Petrol,5.0,422.5,2497.0
+Jaguar Land Rover,Jaguar X-TYPE,I4 Petrol,160.0,215.0,9.0,40000.0,Petrol,5.0,215.0,1998.0
+Jaguar Land Rover,Jaguar F-PACE R-Dynamic,I4 Petrol / V6 Petrol,340.0,250.0,5.4,65000.0,Petrol,5.0,480.0,2497.0
+Jaguar Land Rover,Jaguar XE R-Dynamic,I4 Petrol,340.0,250.0,5.4,60000.0,Petrol,5.0,450.0,1999.0
+Jaguar Land Rover,Jaguar F-PACE SVR,V8 Petrol,550.0,283.0,4.0,85000.0,Petrol,5.0,700.0,5000.0
+Jaguar Land Rover,Jaguar XE S,I4 Petrol,340.0,250.0,5.3,55000.0,Petrol,5.0,450.0,1999.0
+Jaguar Land Rover,Jaguar XF R-Dynamic,I4 Petrol / V6 Petrol,340.0,250.0,5.4,65000.0,Petrol,5.0,480.0,2497.0
+Jaguar Land Rover,Jaguar XJ LWB (Long Wheelbase),V6 Petrol,300.0,250.0,6.0,90000.0,Petrol,5.0,400.0,2995.0
+Jaguar Land Rover,Jaguar F-Type Heritage Edition,V8 Petrol,550.0,300.0,3.9,110000.0,Petrol,2.0,680.0,5000.0
+Jaguar Land Rover,Jaguar E-PACE S,I4 Petrol,200.0,230.0,7.0,50000.0,Petrol,5.0,430.0,1999.0
+Jaguar Land Rover,Jaguar F-Type V8 R,V8 Petrol,550.0,300.0,3.9,100000.0,Petrol,2.0,680.0,5000.0
+Jaguar Land Rover,Jaguar F-Type R-Dynamic,I4 Petrol / V6 Petrol,300.0,250.0,5.1,70000.0,Petrol,2.0,400.0,2497.0
+Jaguar Land Rover,Jaguar XE P300 R-Dynamic,I4 Petrol,300.0,250.0,5.5,55000.0,Petrol,5.0,400.0,1999.0
+Jaguar Land Rover,Jaguar XF Sportbrake,I4 Petrol / V6 Petrol,250.0,250.0,6.5,60000.0,Petrol,5.0,400.0,2497.0
+Jaguar Land Rover,Jaguar F-PACE S 30t AWD,I4 Petrol,247.0,225.0,6.4,60000.0,Petrol,5.0,365.0,1999.0
+Jaguar Land Rover,Jaguar E-PACE R-Dynamic,I4 Petrol,246.0,230.0,6.8,55000.0,Petrol,5.0,430.0,1999.0
+Jaguar Land Rover,Jaguar XJ50,V6 Petrol,300.0,250.0,6.0,80000.0,Petrol,5.0,400.0,2995.0
+Jaguar Land Rover,Jaguar F-Type 75th Anniversary Edition,V8 Petrol,550.0,300.0,3.9,100000.0,Petrol,2.0,680.0,5000.0
+Jaguar Land Rover,Jaguar F-PACE S AWD,I4 Petrol / V6 Petrol,340.0,250.0,5.4,65000.0,Petrol,5.0,480.0,2497.0
+Jaguar Land Rover,Jaguar XE SE,I4 Petrol,250.0,240.0,6.2,50000.0,Petrol,5.0,365.0,1999.0
+Jaguar Land Rover,Jaguar F-Type V6 S Convertible,V6 Petrol,380.0,280.0,4.8,80000.0,Petrol,2.0,460.0,2995.0
+Jaguar Land Rover,Jaguar XE R-Sport AWD,I4 Petrol / V6 Petrol,300.0,250.0,5.5,55000.0,Petrol,5.0,400.0,2497.0
+Jaguar Land Rover,Jaguar XF Portfolio AWD,I4 Petrol / V6 Petrol,340.0,250.0,5.4,60000.0,Petrol,5.0,450.0,2497.0
+Jaguar Land Rover,Jaguar F-Type Coupe R,V8 Petrol,550.0,300.0,3.9,100000.0,Petrol,2.0,680.0,5000.0
+Jaguar Land Rover,Jaguar F-PACE Prestige AWD,I4 Petrol / V6 Petrol,340.0,250.0,5.4,65000.0,Petrol,5.0,480.0,2497.0
+Jaguar Land Rover,Jaguar XJ Supercharged,V8 Petrol,510.0,280.0,4.2,90000.0,Petrol,5.0,625.0,5000.0
+Jaguar Land Rover,Jaguar F-Type P450 AWD,V8 Petrol,450.0,290.0,4.0,90000.0,Petrol,2.0,600.0,5000.0
+Jaguar Land Rover,Jaguar F-PACE P400e Plug-in Hybrid,I4 Petrol + Electric Motor,398.0,220.0,5.1,75000.0,Hybrid,5.0,640.0,1999.0
+Jaguar Land Rover,Jaguar F-Type P300 Coupe,I4 Petrol,300.0,250.0,5.5,60000.0,Petrol,2.0,400.0,1999.0
+Acura,TLX PMC Edition,V6,290.0,250.0,5.7,62000.0,Petrol,5.0,362.0,3500.0
+Acura,MDX Advance,V6,290.0,190.0,6.0,60000.0,Petrol,7.0,362.0,3500.0
+Acura,RDX Technology,I4 Turbocharged,272.0,210.0,6.6,45000.0,Petrol,5.0,400.0,1500.0
+Acura,ILX Premium,I4,201.0,200.0,6.6,30000.0,Petrol,5.0,180.0,2400.0
+Acura,TLX A-Spec,V6,290.0,250.0,5.7,50000.0,Petrol,5.0,362.0,3500.0
+Acura,RDX SH-AWD,I4 Turbocharged,272.0,210.0,6.6,50000.0,Petrol,5.0,400.0,1500.0
+Acura,MDX SH-AWD,V6,290.0,190.0,6.0,55000.0,Petrol,7.0,362.0,3500.0
+Acura,RDX Platinum Elite,I4 Turbocharged,272.0,210.0,6.6,55000.0,Petrol,5.0,400.0,1500.0
+Acura,TLX A-Spec Sedan,V6,290.0,250.0,5.7,50000.0,Petrol,5.0,362.0,3500.0
+Acura,TLX 2.4L,Inline-4,206.0,210.0,6.0,35000.0,Petrol,5.0,247.0,2400.0
+Acura,MDX Hybrid,V6 Hybrid,321.0,190.0,6.0,55000.0,Hybrid,7.0,335.0,3500.0
+Acura,RDX Hybrid,Inline-4 Hybrid,247.0,210.0,6.6,50000.0,Hybrid,5.0,400.0,1500.0
+Acura,ILX Technology Package,Inline-4,201.0,200.0,6.6,30000.0,Petrol,5.0,180.0,2400.0
+Acura,NSX GT3 (Track Version),Twin-Turbo V6 Hybrid,500.0,300.0,3.0,150000.0,Hybrid,2.0,600.0,3493.0
+Acura,RDX Turbo AWD,Inline-4 Turbocharged,272.0,210.0,6.6,45000.0,Petrol,5.0,400.0,1500.0
+Acura,TLX 3.5L V6,V6,290.0,250.0,5.7,50000.0,Petrol,5.0,362.0,3500.0
+Acura,ILX Special Edition,Inline-4,201.0,200.0,6.6,30000.0,Petrol,5.0,180.0,2400.0
+Acura,MDX SH-AWD w/Technology Package,V6,290.0,190.0,6.0,55000.0,Petrol,7.0,362.0,3500.0
+Acura,MDX Elite,V6,290.0,190.0,6.0,58000.0,Petrol,7.0,362.0,3500.0
+Acura,TLX V6 Advance,V6,290.0,250.0,5.7,46000.0,Petrol,5.0,362.0,3500.0
+Acura,RDX Turbo SH-AWD,Turbocharged I4,272.0,210.0,6.6,42000.0,Petrol,5.0,400.0,1500.0
+Acura,ILX Technology Plus,Inline-4,201.0,200.0,6.6,28000.0,Petrol,5.0,180.0,2400.0
+Acura,TLX Type S PMC Edition,Turbocharged V6,355.0,250.0,5.1,54000.0,Petrol,5.0,480.0,3000.0
+Acura,MDX Sport Hybrid,V6 Hybrid,321.0,190.0,6.0,52000.0,Hybrid,7.0,335.0,3500.0
+Peugeot,208,Inline-4,82.0,180.0,10.5,22000.0,Petrol,5.0,160.0,1199.0
+Peugeot,2008,Inline-4,100.0,190.0,9.0,25000.0,Petrol,5.0,205.0,1199.0
+Peugeot,301,Inline-4,115.0,185.0,10.0,23500.0,Petrol,5.0,150.0,1598.0
+Peugeot,308,Inline-4,130.0,200.0,8.0,28000.0,Petrol,5.0,230.0,1598.0
+Peugeot,3008,Inline-4,180.0,210.0,7.5,32000.0,Petrol,5.0,400.0,1598.0
+Peugeot,5008,Inline-4,165.0,200.0,9.5,35000.0,Diesel,7.0,400.0,1998.0
+Peugeot,508,Inline-4,180.0,235.0,8.0,35500.0,Petrol,5.0,300.0,1998.0
+Peugeot,Partner,Diesel I4,75.0,160.0,12.0,22500.0,Diesel,5.0,200.0,1560.0
+Peugeot,Expert,Diesel I4,120.0,180.0,10.0,30000.0,Diesel,3.0,300.0,1997.0
+Peugeot,Boxer,Diesel I4,140.0,160.0,11.0,32000.0,Diesel,3.0,340.0,2200.0
+Peugeot,208 GTI,Inline-4,208.0,230.0,6.5,28000.0,Petrol,5.0,300.0,1598.0
+Peugeot,308 GTI,Inline-4,270.0,250.0,6.0,35000.0,Petrol,5.0,330.0,1598.0
+Peugeot,508 PSE (Peugeot Sport Engineered),Hybrid I4,360.0,250.0,5.2,55000.0,Hybrid,5.0,520.0,1598.0
+Peugeot,308 Allure,Inline-4,130.0,205.0,9.3,25000.0,Petrol,5.0,230.0,1199.0
+Peugeot,2008 Allure,Inline-4,130.0,200.0,9.7,27000.0,Petrol,5.0,230.0,1199.0
+Peugeot,3008 Allure,Inline-4,180.0,210.0,8.0,30000.0,Petrol,5.0,250.0,1499.0
+Peugeot,5008 Allure,Inline-4,180.0,200.0,8.5,33000.0,Petrol,7.0,250.0,1499.0
+Peugeot,508 Allure,Inline-4,180.0,225.0,8.0,35000.0,Petrol,5.0,250.0,1499.0
+Peugeot,3008 GT,Inline-4,200.0,220.0,7.5,35000.0,Petrol,5.0,280.0,1598.0
+Peugeot,508 GT,Inline-4,225.0,235.0,6.8,40000.0,Petrol,5.0,300.0,1598.0
+Peugeot,3008 GT Hybrid,Hybrid I4,300.0,235.0,6.0,45000.0,Hybrid,5.0,400.0,1598.0
+Peugeot,5008 GT Hybrid,Hybrid I4,300.0,210.0,6.5,48000.0,Hybrid,7.0,400.0,1598.0
+Peugeot,208 Allure Premium,Inline-4,130.0,200.0,9.5,28000.0,Petrol,5.0,230.0,1199.0
+Peugeot,Partner Tepee,Inline-4,100.0,170.0,12.0,25000.0,Diesel,5.0,260.0,1560.0
+Peugeot,208 PSE (Peugeot Sport Engineered),Hybrid I4,225.0,250.0,5.5,45000.0,Hybrid,5.0,360.0,1598.0
+Peugeot,308 PSE,Hybrid I4,360.0,250.0,5.0,55000.0,Hybrid,5.0,520.0,1598.0
+Peugeot,508 PSE,Hybrid I4,360.0,250.0,5.2,60000.0,Hybrid,5.0,520.0,1598.0
+Peugeot,3008 PSE,Hybrid I4,300.0,235.0,6.0,50000.0,Hybrid,5.0,400.0,1598.0
+Peugeot,2008 Active,Inline-4,100.0,190.0,11.2,22000.0,Petrol,5.0,205.0,1199.0
+Peugeot,3008 Active,Inline-4,130.0,200.0,10.0,30000.0,Petrol,5.0,240.0,1499.0
+Peugeot,5008 Active,Inline-4,130.0,190.0,10.5,33000.0,Petrol,7.0,240.0,1499.0
+Peugeot,3008 Allure Premium,Inline-4,130.0,200.0,9.8,32000.0,Petrol,5.0,240.0,1499.0
+Peugeot,5008 Allure Premium,Inline-4,130.0,190.0,10.2,35000.0,Petrol,7.0,240.0,1499.0
+Peugeot,3008 GT Line,Inline-4,180.0,210.0,8.5,35000.0,Petrol,5.0,250.0,1598.0
+Peugeot,5008 GT Line,Inline-4,180.0,200.0,9.0,38000.0,Petrol,7.0,250.0,1598.0
+Peugeot,2008 GT,Inline-4,130.0,200.0,9.3,25000.0,Petrol,5.0,230.0,1199.0
+Peugeot,5008 GT,Inline-4,180.0,210.0,8.2,40000.0,Petrol,7.0,250.0,1598.0
+Peugeot,508 SW (Station Wagon),Inline-4,180.0,220.0,8.4,35000.0,Petrol,5.0,300.0,1598.0
+Peugeot,508 Saloon,Inline-4,180.0,210.0,8.6,37000.0,Petrol,5.0,300.0,1598.0
+Peugeot,308 Saloon,Inline-4,130.0,200.0,9.0,28000.0,Petrol,5.0,230.0,1199.0
+Peugeot,301 Sedan,Inline-4,82.0,180.0,12.0,20000.0,Petrol,5.0,115.0,1199.0
+Peugeot,208 Sedan,Inline-4,100.0,190.0,11.2,22000.0,Petrol,5.0,205.0,1199.0
+Ford,Fusion (Mondeo),1.5L EcoBoost / 2.0L Hybrid,205.0,220.0,7.5,32500.0,"Hybrid, Petrol",5.0,300.0,2000.0
+Ford,Taurus,3.5L V6 / 2.0L EcoBoost,282.5,220.0,6.5,37500.0,Petrol,5.0,400.0,3500.0
+Ford,Fiesta,1.0L EcoBoost / 1.5L,142.5,200.0,7.0,20000.0,Petrol,5.0,210.0,1500.0
+Ford,Focus,1.0L EcoBoost / 1.5L / 2.0L,210.0,220.0,6.5,25000.0,Petrol,5.0,275.0,2000.0
+Ford,KA+,1.2L Petrol,77.5,165.0,10.5,13500.0,Petrol,5.0,120.0,1200.0
+Ford,EcoSport,1.0L Turbo Inline-3 / 2.0L,144.5,180.0,9.0,22500.0,Petrol,5.0,185.0,2000.0
+Ford,Escape (Kuga),1.5L EcoBoost / 2.5L Hybrid,190.5,190.0,7.5,31500.0,"Hybrid, Petrol",5.0,215.0,2500.0
+Ford,Edge,2.0L EcoBoost / 2.7L V6,292.5,200.0,6.5,40000.0,Petrol,5.0,437.5,2700.0
+Ford,Explorer,2.3L EcoBoost / 3.0L V6,350.0,200.0,6.0,45000.0,Petrol,7.0,460.0,3000.0
+Ford,Bronco,2.3L EcoBoost / 2.7L V6,292.5,200.0,7.5,42500.0,Petrol,4.0,500.0,2700.0
+Ford,Bronco Sport,1.5L EcoBoost / 2.0L EcoBoost,215.5,185.0,7.0,32000.0,Petrol,5.0,312.5,2000.0
+Ford,F-150,3.3L V6 / 5.0L V8 / 3.5L EcoBoost,370.0,200.0,5.75,55000.0,"Diesel, Petrol",5.0,550.0,5000.0
+Ford,Maverick,2.5L Hybrid / 2.0L EcoBoost,220.5,180.0,7.25,26000.0,"Hybrid, Petrol",5.0,315.0,2000.0
+Ford,Ranger,2.3L Turbo Inline-4 / 2.7L V6,297.5,180.0,6.5,35000.0,"Diesel, Petrol",5.0,470.0,2700.0
+Ford,Escape Hybrid,2.5L Inline-4 + Electric,200.0,180.0,7.7,33000.0,Hybrid,5.0,210.0,2500.0
+Ford,Explorer Hybrid,3.3L V6 + Electric,318.0,180.0,7.5,52500.0,Hybrid,7.0,500.0,3300.0
+Ford,Mustang,5.0L V8,450.0,250.0,4.3,55000.0,Petrol,4.0,530.0,5000.0
+Ford,Focus ST,2.3L Turbo Inline-4,280.0,250.0,5.7,30000.0,Petrol,5.0,420.0,2300.0
+Ford,Fiesta ST,1.5L Turbo Inline-3,200.0,230.0,6.5,23000.0,Petrol,5.0,290.0,1500.0
+Ford,Bronco Raptor,3.0L Twin-Turbo V6,400.0,220.0,5.5,70000.0,Petrol,4.0,583.0,3000.0
+Ford,Ranger Raptor,2.7L Twin-Turbo V6,392.0,200.0,6.0,45000.0,Petrol,5.0,583.0,2700.0
+Ford,F-150 Raptor,3.5L Twin-Turbo V6,450.0,200.0,5.0,70000.0,Petrol,5.0,691.0,3500.0
+Ford,Puma,Turbocharged Inline-3,123.0,191.0,9.6,28000.0,Petrol,5.0,200.0,1000.0
+Ford,Territory,Turbocharged Inline-4,140.0,180.0,11.0,32000.0,Petrol,5.0,225.0,1500.0
+Ford,Everest,Turbocharged Inline-4,210.0,190.0,10.5,52000.0,Diesel,7.0,500.0,2000.0
+Ford,Flex,Naturally Aspirated V6,287.0,200.0,7.9,31000.0,Petrol,7.0,345.0,3500.0
+Ford,Transit Connect,Inline-4 Gasoline Engine,162.0,175.0,10.5,29365.0,Petrol,4.5,200.0,2000.0
+Ford,Mustang Shelby GT350,Naturally Aspirated V8,526.0,280.0,4.0,59140.0,Petrol,2.0,582.0,5200.0
+Ford,F-150 Platinum,Turbocharged V6,400.0,180.0,6.5,64695.0,Petrol,5.0,678.0,3500.0
+Ford,F-150 Limited,Turbocharged V6,450.0,190.0,6.1,84910.0,Petrol,5.0,678.0,3500.0
+Ford,Explorer Platinum,Turbocharged V6,400.0,230.0,6.0,56505.0,Petrol,7.0,563.0,3000.0
+Ford,Transit Chassis Cab,EcoBlue Turbo Diesel,170.0,160.0,11.5,37000.0,Diesel,2.0,405.0,2000.0
+Ford,Maverick Hybrid,I4 Hybrid,191.0,180.0,7.8,25000.0,Hybrid,5.0,210.0,2500.0
+Ford,Mustang (2024),V8 Gasoline Engine,450.0,250.0,4.5,60000.0,Petrol,4.0,570.0,5000.0
+Ford,Ranger (2024),I4 Turbo Diesel,210.0,180.0,8.0,40000.0,Diesel,5.0,500.0,2000.0
+Ford,Escape Plug-in Hybrid (2024),I4 Hybrid,221.0,190.0,7.5,38000.0,Hybrid,5.0,210.0,2500.0
+Ford,Bronco (2024),V6 EcoBoost,310.0,200.0,6.7,45000.0,Petrol,5.0,542.0,2700.0
+Ford,Explorer (2024),V6 Turbocharged,400.0,230.0,5.9,55000.0,Petrol,7.0,563.0,3000.0
+Mitsubishi,Mirage,1.2L MIVEC,78.0,170.0,12.0,17000.0,Petrol,5.0,100.0,1200.0
+Mitsubishi,Mirage G4,1.2L MIVEC,78.0,170.0,12.0,18000.0,Petrol,5.0,100.0,1200.0
+Mitsubishi,Outlander,2.5L 4-Cylinder,181.0,190.0,9.5,31500.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Outlander PHEV,2.4L Hybrid,248.0,170.0,10.5,41000.0,Hybrid,5.0,300.0,2400.0
+Mitsubishi,Eclipse Cross,1.5L Turbo,152.0,180.0,9.8,26500.0,Petrol,5.0,250.0,1500.0
+Mitsubishi,ASX (Outlander Sport),2.0L MIVEC,148.0,190.0,10.0,24500.0,Petrol,5.0,197.0,2000.0
+Mitsubishi,Pajero,3.2L Diesel Turbo,189.0,180.0,10.5,42500.0,Diesel,7.0,441.0,3200.0
+Mitsubishi,Pajero Sport,2.4L Diesel Turbo,181.0,180.0,11.0,37500.0,Diesel,7.0,430.0,2400.0
+Mitsubishi,Triton (L200),2.4L Diesel Turbo,181.0,177.0,10.5,30000.0,Diesel,5.0,430.0,2400.0
+Mitsubishi,Lancer Evolution X,2.0L Turbocharged,291.0,240.0,5.0,45000.0,Petrol,5.0,407.0,2000.0
+Mitsubishi,Delica D:5,2.2L Diesel Turbo,145.0,175.0,11.0,37500.0,Diesel,7.0,360.0,2200.0
+Mitsubishi,Colt,1.1L / 1.5L MIVEC,112.5,180.0,10.5,17500.0,Petrol,5.0,140.0,1500.0
+Mitsubishi,Grandis,2.4L MIVEC,165.0,190.0,11.0,27500.0,Petrol,7.0,217.0,2400.0
+Mitsubishi,Outlander Black Edition,2.5L 4-Cylinder,181.0,190.0,9.5,33500.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Outlander SEL,2.5L 4-Cylinder,181.0,190.0,9.5,32500.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Outlander SE,2.5L 4-Cylinder,181.0,190.0,9.5,30500.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Eclipse Cross Black Edition,1.5L Turbo,152.0,180.0,9.8,29000.0,Petrol,5.0,250.0,1500.0
+Mitsubishi,ASX Exceed,2.0L MIVEC,148.0,190.0,10.0,27000.0,Petrol,5.0,197.0,2000.0
+Mitsubishi,Triton Athlete,2.4L Diesel Turbo,181.0,177.0,10.5,31000.0,Diesel,5.0,430.0,2400.0
+Mitsubishi,Pajero Final Edition,3.2L Diesel Turbo,189.0,180.0,10.5,47500.0,Diesel,7.0,441.0,3200.0
+Mitsubishi,L200 Barbarian X,2.4L Diesel Turbo,181.0,177.0,10.5,32500.0,Diesel,5.0,430.0,2400.0
+Mitsubishi,Space Star,1.2L MIVEC,78.0,170.0,12.0,16000.0,Petrol,5.0,100.0,1200.0
+Mitsubishi,Lancer EX,1.6L MIVEC / 2.0L,132.5,200.0,10.0,22500.0,Petrol,5.0,175.5,2000.0
+Mitsubishi,Montero Sport,2.4L Diesel Turbo,181.0,180.0,11.0,37500.0,Diesel,7.0,430.0,2400.0
+Mitsubishi,RVR SE,2.0L MIVEC,148.0,190.0,10.5,24000.0,Petrol,5.0,197.0,2000.0
+Mitsubishi,Delica Van,2.0L Diesel / 2.2L Diesel,145.0,175.0,11.5,32500.0,Diesel,7.0,360.0,2200.0
+Mitsubishi,Lancer GLX,1.6L MIVEC,115.0,190.0,11.5,18500.0,Petrol,5.0,154.0,1600.0
+Mitsubishi,Pajero GLS,3.2L Diesel Turbo,189.0,180.0,10.5,47500.0,Diesel,7.0,441.0,3200.0
+Mitsubishi,Xpander Cross,1.5L MIVEC,105.0,170.0,12.0,22500.0,Petrol,7.0,141.0,1500.0
+Mitsubishi,Eclipse Cross PHEV,2.4L PHEV,188.0,180.0,10.5,37500.0,Hybrid,5.0,199.0,2400.0
+Mitsubishi,Outlander ES,2.5L 4-Cylinder,181.0,190.0,9.5,29000.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Montero GLX,2.4L Diesel Turbo,181.0,180.0,11.0,37500.0,Diesel,7.0,430.0,2400.0
+Mitsubishi,Triton GLX-R,2.4L Diesel Turbo,181.0,177.0,10.5,31000.0,Diesel,5.0,430.0,2400.0
+Mitsubishi,ASX Dynamic,2.0L MIVEC,148.0,190.0,10.0,26500.0,Petrol,5.0,197.0,2000.0
+Mitsubishi,Outlander LE,2.5L 4-Cylinder,181.0,190.0,9.5,32500.0,Petrol,7.0,245.0,2500.0
+Mitsubishi,Space Runner,1.8L MIVEC,140.0,185.0,10.5,21500.0,Petrol,5.0,170.0,1800.0
+Mitsubishi,Chariot,2.0L MIVEC,140.0,185.0,10.5,21500.0,Petrol,7.0,170.0,2000.0
+Mitsubishi,Lancer SE Limited,2.0L MIVEC,148.0,200.0,10.0,22500.0,Petrol,5.0,197.0,2000.0
+Mitsubishi,Pajero SWB (Short Wheel Base),3.2L Diesel Turbo,189.0,180.0,10.5,47500.0,Diesel,5.0,441.0,3200.0
+Mitsubishi,Dion,2.0L 4-Cylinder,135.0,180.0,11.5,16500.0,Petrol,7.0,181.0,2000.0
+Mitsubishi,Airtrek,2.4L 4-Cylinder,160.0,190.0,11.0,22500.0,Petrol,5.0,214.0,2400.0
+Mitsubishi,Colt CZC Convertible,1.5L Turbocharged,147.0,200.0,9.5,27500.0,Petrol,4.0,210.0,1500.0
+Mitsubishi,Galant Fortis,2.0L MIVEC,154.0,200.0,10.0,20000.0,Petrol,5.0,200.0,2000.0
+Mitsubishi,Endeavor,3.8L V6,225.0,190.0,9.5,31500.0,Petrol,5.0,343.0,3800.0
+Mitsubishi,Grand Lancer,1.8L MIVEC,138.0,190.0,11.5,22500.0,Petrol,5.0,173.0,1800.0
+Mitsubishi,Sigma,3.0L V6,210.0,220.0,8.5,37500.0,Petrol,5.0,270.0,3000.0
+Mazda,Mazda3,2.0L SkyActiv-G,155.0,200.0,8.9,24000.0,Petrol,5.0,213.0,2000.0
+Mazda,Mazda3 Hatchback,2.5L SkyActiv-G,186.0,210.0,8.3,26000.0,Petrol,5.0,252.0,2500.0
+Mazda,Mazda6,2.5L Turbocharged,250.0,240.0,6.4,31000.0,Petrol,5.0,420.0,2500.0
+Mazda,CX-3,2.0L SkyActiv-G,146.0,180.0,9.5,23000.0,Petrol,5.0,197.0,2000.0
+Mazda,CX-30,2.5L SkyActiv-G,186.0,204.0,8.7,25500.0,Petrol,5.0,252.0,2500.0
+Mazda,CX-5,2.5L SkyActiv-G,187.0,200.0,8.8,29000.0,Petrol,5.0,252.0,2500.0
+Mazda,CX-50,2.5L Turbocharged,256.0,220.0,6.9,32500.0,Petrol,5.0,434.0,2500.0
+Mazda,CX-8,2.2L Diesel,187.0,200.0,9.2,39000.0,Diesel,7.0,450.0,2200.0
+Mazda,CX-9,2.5L Turbocharged,250.0,210.0,7.2,41500.0,Petrol,7.0,420.0,2500.0
+Mazda,CX-90,3.3L Inline-6 Turbo,340.0,240.0,6.2,55000.0,Petrol,7.0,500.0,3300.0
+Mazda,MX-5 Miata,2.0L SkyActiv-G,181.0,225.0,6.5,30000.0,Petrol,2.0,205.0,2000.0
+Mazda,MX-5 Miata RF,2.0L SkyActiv-G,181.0,225.0,6.5,36500.0,Petrol,2.0,205.0,2000.0
+Mazda,CX-4,2.0L SkyActiv-G,158.0,190.0,9.6,25000.0,Petrol,5.0,202.0,2000.0
+Mazda,CX-7,2.3L Turbocharged,244.0,210.0,7.9,30500.0,Petrol,5.0,350.0,2300.0
+Mazda,Tribute,3.0L V6,200.0,190.0,9.0,27000.0,Petrol,5.0,270.0,3000.0
+Mazda,B-Series Pickup,2.5L Diesel,143.0,170.0,11.5,22500.0,Diesel,5.0,330.0,2500.0
+Mazda,BT-50,3.2L Turbo Diesel,200.0,180.0,10.0,31000.0,Diesel,5.0,470.0,3200.0
+Mazda,RX-7,1.3L Rotary Twin-Turbo,276.0,250.0,5.5,40000.0,Petrol,4.0,314.0,1300.0
+Mazda,RX-3,1.2L Rotary,110.0,180.0,8.9,17500.0,Petrol,4.0,145.0,1200.0
+Mazda,323F,1.6L Inline-4,105.0,180.0,10.5,16000.0,Petrol,5.0,145.0,1600.0
+Mazda,Familia Sedan,1.5L Inline-4,100.0,175.0,11.0,14000.0,Petrol,5.0,135.0,1500.0
+Mazda,Premacy,2.0L Inline-4,138.0,190.0,9.8,21000.0,Petrol,7.0,180.0,2000.0
+Mazda,Demio,1.5L SkyActiv-G,108.0,180.0,10.2,15500.0,Petrol,5.0,142.0,1500.0
+Mazda,Millenia,2.3L Miller Cycle V6,210.0,215.0,8.2,27500.0,Petrol,5.0,280.0,2300.0
+Mazda,Eunos Cosmo,2.0L Twin-Rotor Turbo,280.0,240.0,6.0,45000.0,Petrol,4.0,300.0,2000.0
+Mazda,Atenza,2.5L SkyActiv-G,192.0,210.0,8.5,25000.0,Petrol,5.0,252.0,2500.0
+Mazda,Roadpacer AP,1.3L Rotary,130.0,170.0,11.5,22500.0,Petrol,5.0,165.0,1300.0
+Mazda,626,2.0L Inline-4,140.0,190.0,9.5,20000.0,Petrol,5.0,180.0,2000.0
+Mazda,929,3.0L V6,205.0,220.0,8.0,27500.0,Petrol,5.0,270.0,3000.0
+Mazda,Luce,1.8L Rotary,135.0,180.0,10.5,17500.0,Petrol,5.0,170.0,1800.0
+Mazda,Capella,1.6L Inline-4,110.0,175.0,11.2,16000.0,Petrol,5.0,145.0,1600.0
+Mazda,Verisa,1.5L Inline-4,113.0,170.0,11.0,16000.0,Petrol,5.0,140.0,1500.0
+Mazda,MX-6,2.5L V6,164.0,210.0,8.8,21000.0,Petrol,4.0,215.0,2500.0
+Mazda,MPV,3.0L V6,200.0,185.0,9.5,27500.0,Petrol,7.0,265.0,3000.0
+Mazda,Proceed Marvie,2.6L Inline-4,120.0,160.0,12.0,22500.0,Petrol,5.0,200.0,2600.0
+Mazda,Sentia,3.0L V6,200.0,200.0,9.0,25000.0,Petrol,5.0,265.0,3000.0
+Mazda,Cronos,2.5L V6,160.0,190.0,8.5,20000.0,Petrol,5.0,210.0,2500.0
+Mazda,CX-60,2.5L Inline-4,187.0,200.0,8.5,42500.0,"Diesel, Petrol",5.0,250.0,2500.0
+Mazda,CX-80,3.0L Inline-6,250.0,210.0,7.5,47500.0,Petrol,7.0,400.0,3000.0
+Mazda,Protegé,1.8L Inline-4,125.0,185.0,9.0,16500.0,Petrol,5.0,170.0,1800.0
+Mazda,Xedos 6,2.5L V6,170.0,215.0,8.5,27500.0,Petrol,5.0,230.0,2500.0
+Mazda,Xedos 9,3.0L V6,200.0,220.0,7.5,32500.0,Petrol,5.0,260.0,3000.0
+Mazda,RX-2,1.3L Inline-2 (Wankel),130.0,185.0,8.5,22500.0,Petrol,4.0,220.0,1308.0
+Mazda,RX-5,1.6L Inline-2 (Wankel),135.0,190.0,8.0,27500.0,Petrol,4.0,210.0,1588.0
+Mazda,RX-7 Spirit R,1.3L Inline-2 (Wankel),280.0,250.0,5.5,37500.0,Petrol,2.0,290.0,1308.0
+Mazda,Cosmo Sport (110S),1.0L Inline-2 (Wankel),110.0,170.0,10.0,32500.0,Petrol,2.0,150.0,1000.0
+Mazda,Eunos 500,2.0L Inline-4,135.0,200.0,9.0,26500.0,Petrol,5.0,170.0,1998.0
+Mazda,Eunos Roadster,1.6L Inline-4,116.0,180.0,9.5,16500.0,Petrol,2.0,140.0,1590.0
+Mazda,Familia Astina,1.8L Inline-4,135.0,200.0,8.5,21000.0,Petrol,5.0,170.0,1800.0
+Mazda,Savanna RX-7,1.3L Inline-2 (Wankel),165.0,230.0,7.5,30000.0,Petrol,2.0,230.0,1308.0
+Mazda,Capella Cargo,2.0L Inline-4,115.0,180.0,12.0,20000.0,Petrol,4.0,160.0,2000.0
+Mazda,Sentia Hardtop Coupe,2.5L V6,160.0,210.0,8.0,32500.0,Petrol,4.0,220.0,2500.0
+Mazda,Biante,2.0L Inline-4,150.0,185.0,10.0,24000.0,Petrol,7.0,200.0,2000.0
+Mazda,Premacy Hydrogen RE Hybrid,1.3L Wankel + Electric,200.0,180.0,9.5,42500.0,Hybrid,5.0,260.0,1308.0
+Mazda,AZ-Offroad,1.3L Inline-4,85.0,145.0,12.0,16500.0,Petrol,5.0,130.0,1298.0
+Mazda,Astina,1.8L Inline-4,140.0,190.0,8.5,22000.0,Petrol,5.0,160.0,1800.0
+Mazda,Etude,1.6L Inline-4,105.0,170.0,10.0,15000.0,Petrol,5.0,135.0,1598.0
+Mazda,MX-3,1.6L Inline-4,130.0,190.0,8.5,20000.0,Petrol,4.0,140.0,1598.0
+Mazda,MX-5 Superlight Concept,1.8L Inline-4,143.0,200.0,7.5,32500.0,Petrol,2.0,160.0,1798.0
+Mazda,Premacy Hydrogen RE,1.3L Wankel + Electric,200.0,180.0,9.5,42500.0,Hybrid,5.0,260.0,1308.0
+Mazda,Luce Rotary Coupe,1.3L Wankel Rotary Engine,135.0,175.0,12.0,27500.0,Petrol,4.0,180.0,1308.0
+Mazda,Millenia S,2.5L V6,200.0,220.0,8.0,32500.0,Petrol,5.0,250.0,2500.0
+Toyota,4Runner (6th Gen),2.4L Turbo I4 (i-FORCE MAX Hybrid),326.0,180.0,6.8,50000.0,Hybrid,7.0,630.0,2393.0
+Toyota,C-HR+ ,1.8L / 2.0L Hybrid,169.0,180.0,9.2,33000.0,Hybrid,5.0,197.5,1987.0
+Toyota,RAV4 (6th Gen),2.5L Hybrid / Plug-in Hybrid,260.5,200.0,7.05,36000.0,Hybrid,5.0,310.5,2487.0
