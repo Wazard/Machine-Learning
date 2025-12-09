@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "C:/Users/lucas/Desktop/Machine_Learning/xgboost"
+    "cmake.sourceDirectory": "C:/Users/lucas/Desktop/Machine_Learning/xgboost",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
 }
