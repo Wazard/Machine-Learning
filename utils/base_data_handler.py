@@ -334,7 +334,9 @@ class BaseDataHandler():
         df,
         method: str = "percentile",
         lower_percentile: float = 0.01,
-        upper_percentile: float = 0.99
+        upper_percentile: float = 0.99,
+        iqr_low: float = .25,
+        iqr_hihg:float = .75
     ) -> pd.DataFrame:
         outlier_flags = pd.DataFrame(index=df.index)
 
@@ -353,7 +355,7 @@ class BaseDataHandler():
             else:  # IQR
                 if method != "iqr":
                     warnings.warn("Unknown method. Defaulting to IQR.", UserWarning)
-                Q1, Q3 = series.quantile([0.25, 0.75])  # standard quartiles
+                Q1, Q3 = series.quantile([iqr_low, iqr_hihg])  # standard quartiles
                 IQR = Q3 - Q1
                 lower, upper = Q1 - 1.5 * IQR, Q3 + 1.5 * IQR
                 outlier_flags[col] = (series < lower) | (series > upper)
